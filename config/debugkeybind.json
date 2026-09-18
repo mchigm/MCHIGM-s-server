@@ -1,0 +1,19 @@
+{
+  "debug": 292,
+  "hideGui": 290,
+  "reloadChunks": 65,
+  "showHitboxes": 66,
+  "copyLocation": 67,
+  "clearChat": 68,
+  "chunkBorders": 71,
+  "advancedTooltips": 72,
+  "inspect": 73,
+  "profiling": 76,
+  "creativeSpectator": 78,
+  "pauseFocus": 80,
+  "help": 81,
+  "dumpDynamicTextures": 83,
+  "reloadResourcePacks": 84,
+  "openGamemodeSwitcher": 293,
+  "pauseWithoutMenu": 256
+}
