@@ -1,0 +1,57 @@
+
+[advanced_ciws]
+	#Enable automatic anti-drone targeting for SBW H/PJ-11 CIWS entities.
+	enableTargeting = true
+	#Legacy alias for enableTargeting. Leave true unless you need to disable older configs.
+	enableDroneDefense = true
+	#Maximum drone detection range in blocks.
+	#Range: 8 ~ 512
+	detectionRange = 96
+	#Minimum ticks between automatic CIWS shots.
+	#Range: 1 ~ 200
+	fireCooldownTicks = 6
+	#Ticks between server-side CIWS target scans. Higher values reduce load in large modpacks.
+	#Range: 1 ~ 200
+	targetScanIntervalTicks = 10
+	#Legacy scan interval. Kept for old configs; targetScanIntervalTicks is used by new builds.
+	#Range: 1 ~ 200
+	scanIntervalTicks = 10
+	#Minimum ticks between visual target sync packets for the same CIWS.
+	#Range: 1 ~ 200
+	packetSyncIntervalTicks = 5
+	#Maximum drone candidates evaluated per CIWS scan.
+	#Range: 1 ~ 512
+	maxTargetsPerScan = 64
+	#Maximum active CIWS systems processed per chunk during one scan pass.
+	#Range: 1 ~ 64
+	maxCiwsPerChunk = 4
+	#When true, only fire through SBW's weapon system if the CIWS has main-gun ammo.
+	requireAmmo = true
+	#When true, calls SBW's internal vehicleShoot method with a nearby server player context so the CIWS shows its normal firing animation.
+	useSbwShooting = true
+	#Direct damage applied to the locked drone after each valid automatic shot.
+	#Range: 0.0 ~ 1000.0
+	damagePerHit = 8.0
+	#When true, ignore SBW drone entities that are landed or in water.
+	targetOnlyFlyingDrones = true
+	#Allow owner UUID whitelist checks when SBW exposes drone ownership.
+	allowOwnerWhitelist = true
+	#Allow custom drone name whitelist checks.
+	allowNameWhitelist = true
+	#Enable client-side CIWS visual target tracking/radar-style sync.
+	enableRadarRenderer = true
+	#Enable CIWS tracer-style visual effects when present.
+	enableTracers = true
+	#Enable lock-on particles.
+	enableParticles = true
+	#Enable targeting and firing sounds from this addon.
+	enableSounds = true
+	#Legacy visual-only client turret tracking toggle. Must be enabled together with enableRadarRenderer.
+	enableClientTracking = true
+	#Legacy master toggle for lock-on particles and vanilla targeting sounds.
+	enableTargetEffects = true
+	#Enable throttled diagnostic logging for targeting, packets, renderer/client tracking and scan failures.
+	enableDebugLogging = false
+	#Legacy debug logging toggle. enableDebugLogging is preferred.
+	debugLogging = false
+

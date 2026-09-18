@@ -1,0 +1,10 @@
+
+[general]
+	#When true, downed (bleeding) players can still shoot their weapons
+	canShootWhenDowned = false
+	#When true, a downed player in a vanilla /team dies immediately if no other team member is online
+	killDownedPlayerWithoutOnlineTeammates = true
+	#How often the server re-sends authoritative PlayerRevive states (20 ticks = 1 second)
+	#Range: 20 ~ 1200
+	stateSyncIntervalTicks = 100
+

@@ -1,0 +1,30 @@
+
+[visual]
+	#Enable EMP post shaders / beam FX
+	empShaders = true
+	#Render fiber-optic cable ribbon FX
+	fiberFx = true
+	#Show radio TX/RX HUD overlay
+	radioHud = true
+	#Show FPV threat HUD (AA / missile / intercept)
+	threatHud = true
+	#Multiplier for EW particle bursts (0.25–1.0)
+	#Range: 0.25 ~ 1.0
+	particleDensity = 1.0
+	#Render the anti-drone net sheet and its entangle cocoon
+	netFx = true
+	#Animated high-voltage title plate on the creative tab
+	tabBannerFx = true
+	#Ease signal meters one bar at a time instead of snapping
+	barSmoothing = true
+
+[sound]
+	#Play the EW panel interface sounds
+	uiSounds = true
+	#Volume of the EW panel interface sounds
+	#Range: 0.0 ~ 1.0
+	uiSoundVolume = 1.0
+	#Volume of the looping net rustle around a trapped drone
+	#Range: 0.0 ~ 1.0
+	netLoopVolume = 1.0
+

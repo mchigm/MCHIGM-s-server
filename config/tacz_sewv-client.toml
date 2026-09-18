@@ -1,0 +1,37 @@
+
+[interaction]
+	#Show a short message above the hotbar when an order succeeds.
+	showOrderFeedback = true
+
+[overlay]
+	#Tint Superb Warfare's vehicle hover text by who is crewing it (RU / US / PMC).
+	factionColorsEnabled = true
+	#RU colour as six hex digits (RRGGBB), e.g. FF5555.
+	colorRu = "FF5555"
+	#US colour as six hex digits (RRGGBB), e.g. 5555FF.
+	colorUs = "5555FF"
+	#PMC colour as six hex digits (RRGGBB), e.g. 55FF55.
+	colorPmc = "55FF55"
+	#On AI helicopters, append the current attack phase to the hover name
+	#(approach, attack, break away, and so on).
+	heliShowRunPhase = true
+
+[map]
+	#Show unit and vehicle markers on Xaero's World Map, and allow ordering from the map.
+	#You can also toggle this in-game with the map markers keybind.
+	mapMarkersEnabled = true
+	#Show trench-network and emplacement markers on Xaero's World Map.
+	mapTrenchMarkersEnabled = true
+	#In singleplayer, keep the world running while Xaero's map screen is open
+	#(otherwise the game pauses and markers go stale).
+	mapLive = true
+	#Draw vehicle-type icons on map markers.
+	mapShowIcons = true
+	#Draw a health bar under your own PMC vehicle markers.
+	mapShowHealthBar = true
+	#Draw an energy/fuel bar under your own PMC vehicle markers.
+	mapShowEnergyBar = true
+	#Developer overlay: battle-group commander marks, play names, and per-tank role tags.
+	#Leave off unless you are debugging AI command.
+	mapShowCommandDebug = false
+

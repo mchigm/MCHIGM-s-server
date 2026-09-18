@@ -1,0 +1,536 @@
+
+[drone]
+	#Maximum allowed distance in blocks between the player and a linked Superb Warfare drone.
+	#Range: 1 ~ 30000
+	droneMaxRange = 100
+	#Maximum distance in blocks that ordinary nearby players keep a drone entity tracked for visual and audio playback.
+	#Range: 32 ~ 512
+	droneVisualTrackingRange = 256
+	#Extra flight speed multiplier applied to FPV drone travel input.
+	#Range: 1.0 ~ 4.0
+	droneSpeedMultiplier = 1.0
+	#Keep a small area around an actively controlled drone loaded.
+	enableDroneChunkLoading = false
+	#Chunk radius kept loaded around the drone when chunk loading is enabled.
+	#Range: 0 ~ 4
+	droneChunkLoadRadius = 1
+	#Immediate chunk preload radius when a controlled drone enters a chunk. Limited to 1 to keep requests within a 3x3 area.
+	#Range: 0 ~ 1
+	droneProactiveLoadRadius = 1
+	#Log one entry whenever an actively controlled drone proactively requests chunks after crossing a chunk boundary.
+	debugDroneChunkLoading = false
+	#Experimental: send the controlling client a chunk-cache center update when its drone crosses a chunk boundary.
+	experimentalDroneClientChunkCenterSync = false
+	#Move the controlling player with the drone while using the monitor so vanilla chunk loading follows the drone.
+	enableDronePlayerAnchor = true
+	#Allow drone crash explosions to damage entities and destroy blocks.
+	enableDroneCrashExplosionDamage = true
+
+[lucas]
+	#How long the LUCAS drone gets assisted launch thrust after a new control session begins.
+	#Range: 0 ~ 200
+	lucasTakeoffAssistTicks = 60
+	#Minimum forward speed injected during the LUCAS drone takeoff assist window.
+	#Range: 0.0 ~ 4.0
+	lucasTakeoffForwardBoost = 1.15
+	#Upward lift injected each tick during the LUCAS drone takeoff assist window.
+	#Range: 0.0 ~ 1.0
+	lucasTakeoffUpBoost = 0.24
+	#Minimum forward cruise speed for the LUCAS fixed-wing drone while throttle is engaged.
+	#Range: 0.05 ~ 5.0
+	lucasMinSpeed = 0.85
+	#Maximum forward speed for the LUCAS fixed-wing drone.
+	#Range: 0.1 ~ 8.0
+	lucasMaxSpeed = 3.2
+	#How quickly the LUCAS fixed-wing drone blends toward its target forward speed.
+	#Range: 0.001 ~ 1.0
+	lucasAcceleration = 0.085
+	#Drag multiplier applied to LUCAS movement each tick. Lower values bleed speed faster.
+	#Range: 0.5 ~ 0.999
+	lucasDrag = 0.992
+	#Yaw turn rate for the LUCAS fixed-wing drone.
+	#Range: 0.05 ~ 10.0
+	lucasTurnRate = 2.0
+	#Mouse pitch response rate for the LUCAS fixed-wing drone.
+	#Range: 0.05 ~ 10.0
+	lucasPitchRate = 0.6
+	#Extra upward climb speed while holding Space with the LUCAS drone.
+	#Range: 0.0 ~ 1.0
+	lucasClimbSpeed = 0.08
+	#Extra downward speed while holding Shift with the LUCAS drone.
+	#Range: 0.0 ~ 1.0
+	lucasDescendSpeed = 0.07
+	#Base arcade lift strength applied when the LUCAS drone has enough throttle to stay airborne.
+	#Range: 0.0 ~ 1.0
+	lucasLiftStrength = 0.06
+	#Maximum banking roll shown while the LUCAS drone turns.
+	#Range: 0.0 ~ 90.0
+	lucasRollVisualAmount = 25.0
+	#Speed threshold below which the LUCAS drone begins to stall and lose lift.
+	#Range: 0.05 ~ 6.0
+	lucasMinLiftSpeed = 0.45
+	#Extra downward pull applied while the LUCAS drone is stalled.
+	#Range: 0.0 ~ 1.0
+	lucasStallGravity = 0.04
+	#Enable harsher fixed-wing stall behavior for the LUCAS drone. Disabled by default for arcade flight.
+	lucasStallEnabled = false
+	#If true, the LUCAS drone can slow to a hover. Intended to stay false for fixed-wing behavior.
+	lucasCanHover = false
+	#Maximum gasoline fuel stored by the LUCAS drone.
+	#Range: 1 ~ 100000
+	lucasMaxFuel = 1000
+	#Fuel drained per tick while the LUCAS engine is active on the ground.
+	#Range: 0.0 ~ 100.0
+	lucasFuelDrainIdle = 0.02
+	#Fuel drained per tick while the LUCAS drone is flying.
+	#Range: 0.0 ~ 100.0
+	lucasFuelDrainFlying = 0.08
+	#Extra fuel drained per tick while the LUCAS drone climbs or uses takeoff assist.
+	#Range: 0.0 ~ 100.0
+	lucasFuelDrainClimb = 0.14
+	#Fuel percentage at or below which the LUCAS fuel warning appears.
+	#Range: 0 ~ 100
+	lucasLowFuelWarningPercent = 15
+	#If true, LUCAS can keep powered flight with an empty tank. Intended to stay false for gasoline gameplay.
+	lucasCanFlyWithoutFuel = false
+	#Scale multiplier for the LUCAS military UAV camera HUD.
+	#Range: 0.6 ~ 1.5
+	lucasHudScale = 1.0
+
+[fuelMixer]
+	#Ticks required for the Fuel Mixer to refine coal/charcoal, blaze powder, and redstone into one gasoline canister.
+	#Range: 1 ~ 12000
+	fuelMixerProcessTime = 200
+	#Fuel added to a grounded LUCAS drone by one Gasoline Jerrycan.
+	#Range: 1 ~ 100000
+	gasolineJerrycanFuelAmount = 1000
+
+[thermalVision]
+	#Enable the Thermal Vision drone overlay toggle on the client.
+	enableThermalVision = true
+	#Maximum range in blocks for Thermal Vision entity highlighting while using the drone monitor.
+	#Range: 8 ~ 256
+	thermalVisionRange = 64
+	#Allow toggling Thermal Vision with the client keybind while using the upgraded drone terminal.
+	thermalVisionKeybindEnabled = true
+	#Render subtle scanline and noise effects while Thermal Vision is enabled.
+	thermalVisionNoiseEffect = true
+	#Highlight player entities in Thermal Vision.
+	thermalHighlightPlayers = true
+	#Highlight hostile mobs in Thermal Vision.
+	thermalVisionHighlightHostileMobs = true
+	#Highlight animals and passive mobs in Thermal Vision.
+	thermalVisionHighlightAnimals = true
+
+[battery]
+	#Enable the drone battery / energy system.
+	enableBatterySystem = true
+	#Maximum battery capacity for a drone.
+	#Range: 1 ~ 1000000
+	maxEnergy = 1200
+	#Energy consumed each server tick while the drone is actively flying or being controlled.
+	#Range: 0 ~ 100000
+	energyUsePerTick = 1
+	#Energy consumed each server tick while the drone is idle.
+	#Range: 0 ~ 100000
+	idleEnergyUsePerTick = 0
+	#Threshold where the controller starts receiving low battery warnings.
+	#Range: 0 ~ 1000000
+	lowEnergyThreshold = 200
+	#If true, an empty drone drifts back toward its controller while descending.
+	returnHomeOnEmpty = false
+	#Maximum energy transferred from an SBW battery item to the drone per right-click.
+	#Range: 1 ~ 1000000
+	batteryTransferRate = 100
+
+[droneSiren]
+	#Enable the Drone Detection Siren block.
+	enableDroneSiren = true
+	#Detection radius in blocks for nearby Superb Warfare drones.
+	#Range: 4 ~ 256
+	droneSirenRange = 32
+	#Emit a redstone signal while the siren is active.
+	droneSirenRedstoneOutput = true
+	#Ticks the siren remains active after losing drone contact.
+	#Range: 1 ~ 1200
+	droneSirenCooldownTicks = 20
+	#If false, sirens ignore drones owned by the player who placed the siren.
+	detectFriendlyDrones = true
+	#Player names whose owned drones should never trigger any siren.
+	ignoredDroneOwnerNames = []
+	#Player UUIDs whose owned drones should never trigger any siren.
+	ignoredDroneOwnerUUIDs = []
+	#If true, drones without a stored owner are ignored by sirens.
+	ignoreOwnerlessDrones = false
+	#Custom drone names that should never trigger any siren.
+	ignoredDroneNames = []
+	#If true, drones without a custom name are ignored by sirens.
+	ignoreUnnamedDrones = false
+	#If true, siren drone-name blacklist checks ignore case.
+	blacklistMatchCaseInsensitive = true
+
+[droneJammer]
+	#Enable the portable FPV detector and the existing placeable area jammer.
+	enableDroneJammer = true
+	#Disruption radius in blocks for existing placeable area jammers.
+	#Range: 4 ~ 256
+	jammerRange = 32
+	#Ticks a drone at maximum jammer strength needs to build from 0 to full jam progress.
+	#Range: 10 ~ 2400
+	jammerBuildUpTicks = 80
+	#Ticks a drone takes to recover from full jam progress after leaving jammer coverage.
+	#Range: 10 ~ 2400
+	jammerRecoveryTicks = 120
+	#Jam progress threshold where a short hard-lock countdown begins.
+	#Range: 0.5 ~ 1.0
+	hardJamThreshold = 0.95
+	#Jam progress threshold where drone controls start stuttering.
+	#Range: 0.0 ~ 0.99
+	controlInterferenceThreshold = 0.5
+	#Jam progress threshold where the FPV static overlay becomes visible.
+	#Range: 0.0 ~ 0.99
+	overlayStartThreshold = 0.15
+	#Enable verbose progressive jammer debug logging.
+	debugJammer = false
+	#Legacy instant jammer behavior mode. Progressive jammer logic now ignores this value.
+	#Allowed Values: HARD, SOFT
+	jammerMode = "HARD"
+	#If false, jammers ignore drones owned by the player who placed the jammer.
+	affectFriendlyDrones = true
+	#Legacy detection range in blocks for the handheld FPV detector display.
+	#Range: 16 ~ 1024
+	droneRadarDetectionRange = 256
+	#Play pulsing RF detector beeps when the handheld radar detects drones.
+	droneRadarBeepEnabled = true
+	#Base volume for handheld FPV detector beeps.
+	#Range: 0.0 ~ 2.0
+	droneRadarBeepVolume = 0.45
+	#Fastest allowed handheld radar beep interval in ticks.
+	#Range: 1 ~ 100
+	droneRadarMinBeepIntervalTicks = 5
+	#Slowest allowed handheld radar beep interval in ticks.
+	#Range: 5 ~ 200
+	droneRadarMaxBeepIntervalTicks = 40
+	#If true, only play detector beeps while the active detector item is held in hand.
+	droneRadarOnlyBeepWhenHeld = true
+	#Scale for the handheld FPV detector HUD.
+	#Range: 0.25 ~ 1.25
+	droneRadarHudScale = 0.55
+	#Top-right horizontal offset in pixels for the handheld FPV detector HUD.
+	#Range: 0 ~ 256
+	droneRadarHudXOffset = 8
+	#Top-right vertical offset in pixels for the handheld FPV detector HUD.
+	#Range: 0 ~ 256
+	droneRadarHudYOffset = 8
+	#Use compact short-label layout for the handheld FPV detector HUD.
+	droneRadarCompactMode = true
+	#Enable verbose handheld FPV detector debug logging.
+	debugDroneRadar = false
+
+[portableFpvDetector]
+	#Maximum wireless FPV detector range in blocks.
+	#Range: 16 ~ 5000
+	portableFpvDetectorRange = 1500
+	#Server-side scan interval in ticks while the detector is ON and held.
+	#Range: 1 ~ 200
+	portableFpvDetectorScanIntervalTicks = 10
+	#Maximum detected wireless drone targets sent to the detector display.
+	#Range: 1 ~ 64
+	portableFpvDetectorMaximumTargets = 16
+	#Allow the detector UI to advertise live video support for compatible wireless drones.
+	portableFpvDetectorVideoEnabled = true
+	#If false, the handheld detector ignores drones owned by the detector holder.
+	portableFpvDetectorDetectOwnDrones = true
+	#If true, the detector only reports drones with direct line of sight.
+	portableFpvDetectorRequireLineOfSight = false
+	#Render the compact lower-right Portable FPV Drone Detector HUD while scanning.
+	portableFpvDetectorHudEnabled = true
+	#Show numeric signal percentages in the raised detector receiver screen.
+	portableFpvDetectorShowSignalPercent = true
+
+[fiberOptic]
+	#Enable the optional Fiber Optic spool module for FPV drones.
+	enableFiberOpticMode = true
+	#Maximum cable length in blocks before a Fiber Optic link starts building tension.
+	#Range: 16 ~ 4096
+	fiberOpticCableLength = 256
+	#Ticks an overstretched Fiber Optic cable can stay beyond its length limit before it snaps.
+	#Range: 1 ~ 2400
+	fiberOpticCableBreakDelayTicks = 60
+	#Additional active-flight battery drain multiplier while controlling a drone through Fiber Optic mode.
+	#Range: 1.0 ~ 10.0
+	fiberOpticExtraBatteryDrainMultiplier = 1.15
+	#Allow normal jammer interference to affect drones using Fiber Optic mode.
+	normalJammersAffectFiberOptic = false
+	#If true, anti-drone nets sever Fiber Optic drone links and damage the installed spool.
+	antiDroneNetCutsFiber = true
+	#Require Anti-Drone Net Panels to have a solid attached face. Keep false for free-floating panels.
+	antiDroneNetPanelRequiresSupport = false
+	#Anti-Drone Net Panel trigger thickness in blocks. This can be thicker than the visual panel so drones reliably trigger it.
+	#Range: 0.0625 ~ 0.5
+	antiDroneNetPanelTriggerThickness = 0.25
+	#Anti-Drone Net Panel visual thickness in blocks.
+	#Range: 0.03125 ~ 0.125
+	antiDroneNetPanelVisualThickness = 0.0625
+	#Enable the vehicle-mounted Anti-Drone Net Upgrade cage around Superb Warfare vehicles.
+	vehicleAntiDroneNetEnabled = true
+	#Extra horizontal clearance in blocks added around the vehicle hitbox for the mounted anti-drone net cage.
+	#Range: 0.0 ~ 2.0
+	vehicleAntiDroneNetHorizontalPadding = 0.2
+	#Extra top clearance in blocks added above the vehicle hitbox for the mounted anti-drone net cage.
+	#Range: 0.0 ~ 2.0
+	vehicleAntiDroneNetTopPadding = 0.25
+	#If true, drones crossing an active vehicle-mounted anti-drone net cage are jammed like normal anti-drone net blocks.
+	vehicleAntiDroneNetStopsDrones = true
+	#Client render opacity for the vehicle-mounted anti-drone net cage.
+	#Range: 0.05 ~ 1.0
+	vehicleAntiDroneNetOpacity = 0.7
+	#Enable sneak-right-click POS1/POS2 bulk placement for Anti-Drone Net, Panel, and Carpet blocks.
+	netBulkPlacementEnabled = true
+	#Maximum horizontal width for one anti-drone net bulk placement plane.
+	#Range: 1 ~ 512
+	netBulkPlacementMaxWidth = 256
+	#Maximum vertical height for net/panel planes, or Z depth for carpet planes.
+	#Range: 1 ~ 256
+	netBulkPlacementMaxHeight = 128
+	#Maximum total blocks in one anti-drone net bulk placement.
+	#Range: 1 ~ 32768
+	netBulkPlacementMaxBlocks = 16384
+	#Maximum reach used when validating POS1 and POS2 on the server.
+	#Range: 1.0 ~ 256.0
+	netBulkPlacementMaximumReach = 256.0
+	#Reject the whole placement when any target position is blocked.
+	netBulkPlacementAllOrNothing = false
+	#When all-or-nothing is disabled, skip blocked positions instead of failing the whole placement.
+	netBulkPlacementSkipBlocked = true
+	#Maximum anti-drone net blocks placed per server tick for large confirmed selections.
+	#Range: 1 ~ 512
+	netBulkPlacementBlocksPerTick = 128
+	#Seconds that /sbw net undo remains available for the player's most recent successful bulk placement.
+	#Range: 0 ~ 3600
+	netBulkPlacementUndoSeconds = 60
+	#Enable verbose Fiber Optic cable debug logging.
+	debugFiberOptic = false
+	#Visible width in blocks of the single client-rendered Fiber Optic cable ribbon.
+	#Range: 0.008 ~ 0.025
+	fiberCableVisualThickness = 0.015
+	#Alpha transparency used by the rendered Fiber Optic cable wire.
+	#Range: 0.05 ~ 1.0
+	fiberCableVisualAlpha = 0.72
+	#Visible color preset for the Fiber Optic cable wire. Supported: charcoal, light_gray, off_white, pale_gray.
+	fiberCableVisualColor = "charcoal"
+	#Maximum client render distance in blocks for Fiber Optic cable ribbons.
+	#Range: 32.0 ~ 512.0
+	fiberCableMaxRenderDistance = 192.0
+	#Maximum number of active Fiber Optic cables visible on one client.
+	#Range: 1 ~ 64
+	maxVisibleFiberCables = 16
+	#Enable sparse zero-entity Fiber Optic route history rendering.
+	fiberRouteHistoryEnabled = true
+	#Minimum distance in blocks from the last saved route point before appending another Fiber Optic route point.
+	#Range: 0.25 ~ 32.0
+	fiberRoutePointSpacing = 2.5
+	#Minimum movement distance in blocks before a turn can add a sparse Fiber Optic route point.
+	#Range: 0.1 ~ 16.0
+	fiberRouteMinimumTurnDistance = 1.0
+	#Movement direction change in degrees that commits a new Fiber Optic route point.
+	#Range: 1.0 ~ 175.0
+	fiberRouteTurnAngleThreshold = 18.0
+	#Maximum saved Fiber Optic route points per active connection.
+	#Range: 8 ~ 2048
+	fiberRouteMaximumPoints = 512
+	#Smooth sparse Fiber Optic route corners during client rendering.
+	fiberRouteCornerSmoothing = true
+	#Enable compact debug logging for Fiber Optic route-history events.
+	fiberRouteDebugLogging = false
+	#Allow the drone owner or active fiber controller to manually cut their own Fiber Optic cable with shears.
+	fiberCableCanBeCutByOwner = true
+	#Allow other players to manually cut active Fiber Optic cables with shears.
+	fiberCableCanBeCutByOtherPlayers = true
+	#Require vanilla shears for manual Fiber Optic cable cutting. This first implementation only supports shears.
+	fiberCableCutRequiresShears = true
+	#Maximum distance in blocks from player eye to a Fiber Optic cable cut point.
+	#Range: 1.0 ~ 16.0
+	fiberCableCutReach = 5.0
+	#Invisible hit-test radius in blocks used only while trying to cut the thin Fiber Optic cable.
+	#Range: 0.02 ~ 0.5
+	fiberCableInteractionRadius = 0.12
+	#Reject manual Fiber Optic cuts when a solid block blocks line of sight to the validated cut point.
+	fiberCableCutLineOfSightRequired = true
+	#Optional accessibility hook for a tiny reticle change while targeting fiber. Default false; cable visuals never change.
+	fiberCableTargetIndicator = false
+	#Debug-only thickness used when Fiber Optic cable render debugging is enabled.
+	#Range: 0.008 ~ 0.08
+	fiberCableDebugVisualThickness = 0.025
+	#Legacy compatibility only. Cable segment entities are no longer maintained in Phase 1.
+	#Range: 0.5 ~ 16.0
+	fiberCableSegmentSpacing = 3.0
+	#Health for each physical Fiber Optic cable segment entity.
+	#Range: 0.5 ~ 100.0
+	fiberCableSegmentHealth = 4.0
+	#Hitbox width/height for each Fiber Optic cable segment entity.
+	#Range: 0.1 ~ 2.0
+	fiberCableSegmentHitboxSize = 0.55
+	#Allow players to damage Fiber Optic cable segment entities with melee hits.
+	fiberCableCanBeDamagedByPlayers = true
+	#Allow projectiles to damage Fiber Optic cable segment entities.
+	fiberCableCanBeDamagedByProjectiles = true
+	#Allow explosions to damage Fiber Optic cable segment entities.
+	fiberCableCanBeDamagedByExplosions = true
+	#Use a projectile movement raycast fallback to sever Fiber Optic cables when small segment hitboxes are missed.
+	fiberCableProjectileRaycastBreak = true
+	#If true, destroying any Fiber Optic cable segment immediately severs the link.
+	fiberCableBreaksWhenAnySegmentDestroyed = true
+	#Maximum amount of physical Fiber Optic cable segment entities maintained per drone.
+	#Range: 1 ~ 256
+	maxFiberCableSegmentsPerDrone = 96
+	#Enable verbose client-side Fiber Optic cable render debug logging.
+	debugFiberCableRender = false
+	#Enable verbose Fiber Optic cable segment lifecycle debug logging.
+	debugFiberCableSegments = false
+	#Render the visible Fiber Optic cable in bright red while debugFiberCableRender is enabled.
+	renderRedDebugCable = false
+	#Render the old client-only Fiber Optic line in addition to the physical cable segments.
+	renderLegacyFiberLine = false
+
+[weather]
+	#Enable rain and storm effects for drones.
+	weatherEffectsEnabled = true
+	#Multiplier applied to effective drone visibility and control clarity during rain.
+	#Range: 0.1 ~ 1.0
+	rainVisibilityMultiplier = 0.8
+	#Strength of random wind instability applied to drones during thunderstorms.
+	#Range: 0.0 ~ 2.0
+	stormInstabilityStrength = 0.2
+
+[droneScreenshot]
+	#Play a shutter sound when taking a drone FPV screenshot.
+	enableDroneScreenshotSound = true
+
+[fpvCamera]
+	#Analog-style FPV camera field of view for the Cubed FPV Drone.
+	#Range: 105.0 ~ 115.0
+	fpvCameraFov = 112.0
+	#Forward camera tilt applied while controlling the Cubed FPV Drone.
+	#Range: 0.0 ~ 45.0
+	fpvCameraTiltDegrees = 20.0
+	#Render a subtle FPV lens vignette/fisheye-style screen edge effect.
+	enableFpvFisheyeEffect = true
+	#Add throttle-scaled camera vibration while flying the Cubed FPV Drone.
+	enableFpvCameraVibration = true
+
+[audio]
+	#Overall volume multiplier for the drone engine sound.
+	#Range: 0.0 ~ 5.0
+	droneEngineVolumeMultiplier = 1.0
+	#Dedicated volume multiplier for the LUCAS drone engine sound.
+	#Range: 0.0 ~ 5.0
+	lucasEngineVolumeMultiplier = 5.0
+	#Volume multiplier for the monitor control hum while using the linked drone screen.
+	#Range: 0.0 ~ 2.0
+	droneMonitorHumVolumeMultiplier = 1.0
+	#Extra engine volume multiplier applied while the drone is airborne.
+	#Range: 1.0 ~ 5.0
+	droneAirborneVolumeMultiplier = 1.35
+	#Master client-side volume for external Cubed FPV drone motor audio.
+	#Range: 0.0 ~ 2.0
+	cubedFpvExternalVolume = 1.0
+	#Near layer volume for external Cubed FPV drone motor audio.
+	#Range: 0.0 ~ 2.0
+	cubedFpvNearVolume = 1.0
+	#Mid-distance layer volume for external Cubed FPV drone motor audio.
+	#Range: 0.0 ~ 2.0
+	cubedFpvMidVolume = 0.8
+	#Far-distance layer volume for external Cubed FPV drone motor audio.
+	#Range: 0.0 ~ 2.0
+	cubedFpvFarVolume = 0.55
+	#Master client-side volume for external LUCAS fixed-wing drone motor audio.
+	#Range: 0.0 ~ 2.0
+	lucasExternalVolume = 1.1
+	#Near layer volume for external LUCAS fixed-wing drone motor audio.
+	#Range: 0.0 ~ 2.0
+	lucasNearVolume = 1.0
+	#Mid-distance layer volume for external LUCAS fixed-wing drone motor audio.
+	#Range: 0.0 ~ 2.0
+	lucasMidVolume = 0.85
+	#Far-distance layer volume for external LUCAS fixed-wing drone motor audio.
+	#Range: 0.0 ~ 2.0
+	lucasFarVolume = 0.6
+	#Local FPV monitor listener gain for the Cubed FPV motor mix.
+	#Range: 0.0 ~ 1.0
+	fpvInternalAudioGain = 0.65
+	#Enable subtle client-side drone motor doppler pitch movement.
+	droneDopplerEnabled = true
+	#Strength of subtle client-side drone motor doppler pitch movement.
+	#Range: 0.0 ~ 1.0
+	droneDopplerStrength = 0.2
+	#Enable lightweight external drone audio occlusion behind solid blocks.
+	droneAudioOcclusion = true
+	#Maximum Cubed FPV drone external audio sets managed on one client.
+	#Range: 0 ~ 64
+	maxAudibleCubedFpvDrones = 12
+	#Maximum LUCAS drone external audio sets managed on one client.
+	#Range: 0 ~ 64
+	maxAudibleLucasDrones = 8
+
+[spotlight]
+	#Enable the drone Spotlight Module upgrade system.
+	enableSpotlightModule = true
+	#Maximum render/search distance of the drone spotlight beam.
+	#Range: 8 ~ 100
+	spotlightRange = 48
+	#Extra drone battery energy consumed per second while the spotlight is active.
+	#Range: 0 ~ 1000
+	spotlightEnergyCostPerSecond = 2
+	#Require a Spotlight Module item to be installed in the drone inventory before use.
+	spotlightRequiresModule = true
+	#If true, other players can also see spotlight beams from active drones.
+	spotlightVisibleToOtherPlayers = true
+	#Automatically disable the spotlight when the drone battery runs empty.
+	spotlightAutoOffWhenBatteryEmpty = true
+	#Create temporary real light blocks in front of the drone spotlight.
+	spotlightRealLightEnabled = true
+	#Maximum distance used by the real spotlight light positions.
+	#Range: 8 ~ 100
+	spotlightLightRange = 48
+	#Base light level used for the nearest spotlight light source.
+	#Range: 1 ~ 15
+	spotlightLightLevel = 15
+	#How often the spotlight real light positions update while active.
+	#Range: 1 ~ 10
+	spotlightLightUpdateIntervalTicks = 2
+
+[payload]
+	#Render colored payload mount debug markers and log payload mount transforms every second.
+	debugPayloadMounts = false
+	#Local X offset for the single dangling Cubed FPV payload attachment point.
+	#Range: -2.0 ~ 2.0
+	fpvPayloadAttachmentX = 0.0
+	#Local Y offset for the single dangling Cubed FPV payload attachment point.
+	#Range: -2.0 ~ 1.0
+	fpvPayloadAttachmentY = -0.3
+	#Local Z offset for the single dangling Cubed FPV payload attachment point.
+	#Range: -2.0 ~ 2.0
+	fpvPayloadAttachmentZ = 0.0
+	#Length in blocks of the visual cord below the Cubed FPV drone.
+	#Range: 0.1 ~ 1.0
+	fpvPayloadCordLength = 0.65
+	#Extra visual scale multiplier for the dangling Cubed FPV payload.
+	#Range: 0.1 ~ 2.0
+	fpvPayloadGrenadeScale = 0.62
+	#Extra visual pitch rotation for the dangling Cubed FPV payload.
+	#Range: -180.0 ~ 180.0
+	fpvPayloadGrenadeRotationPitch = 0.0
+	#Extra visual roll rotation for the dangling Cubed FPV payload.
+	#Range: -180.0 ~ 180.0
+	fpvPayloadGrenadeRotationRoll = 0.0
+	#Extra visual yaw rotation for the dangling Cubed FPV payload.
+	#Range: -180.0 ~ 180.0
+	fpvPayloadGrenadeRotationYaw = 0.0
+	#Maximum visual swing angle in degrees for the dangling Cubed FPV payload.
+	#Range: 0.0 ~ 45.0
+	fpvPayloadSwingMaxAngle = 35.0
+	#Client-side damping for the dangling Cubed FPV payload swing.
+	#Range: 0.0 ~ 0.99
+	fpvPayloadSwingDamping = 0.88
+

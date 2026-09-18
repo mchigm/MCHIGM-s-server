@@ -1,0 +1,35 @@
+
+[general]
+	#Show EW action-bar tips (jam warnings, fiber snap, etc.)
+	actionBarTips = true
+	#Play quiet jam hiss near drones under REB coverage
+	jamAmbientSounds = true
+	#Server ticks between heavy FPV threat world scans (1 = every tick)
+	#Range: 1 ~ 5
+	threatScanInterval = 2
+	#Cache closest-jammer lookup per drone for N ticks
+	#Range: 1 ~ 8
+	jammerCacheTicks = 2
+	#Enable linked-monitor index + jammer scan cache (same results, less CPU)
+	serverOptimizations = true
+
+[gameplay]
+	#Drone interceptor antenna reach, in blocks
+	#Range: 50 ~ 700
+	interceptorRange = 200
+	#Channel takeover window, in seconds
+	#Range: 30 ~ 600
+	hackSeconds = 120
+	#Successful sweep locks needed to seize a drone channel
+	#Range: 3 ~ 30
+	hackLocks = 10
+	#How much an anti-drone net slows a body walking through it (1.0 = no drag, 0.1 = cobweb)
+	#Range: 0.1 ~ 1.0
+	netDrag = 0.68
+	#Longest anti-drone net that can be stretched, in blocks
+	#Range: 6 ~ 48
+	netMaxSpan = 24
+	#Speed multiplier for maneuvering AA missiles (1.0 = default)
+	#Range: 0.25 ~ 3.0
+	aaMissileSpeed = 1.0
+

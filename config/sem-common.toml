@@ -1,0 +1,286 @@
+
+[general_settings]
+	#When set to true, soldiers will spawn in villages. When set to false, the event is disabled
+	enableVillageGarrison = true
+
+[Factions]
+	#If true, Ru Units will be friendly with Players and PMC Units
+	ruUnitsFriendly = false
+	#If true, Us Units will be friendly with Players and PMC Units
+	usUnitsFriendly = false
+
+[unit_attributes]
+	#Max Health for All Units
+	#Range: 1.0 ~ 200.0
+	health = 20.0
+	#--------------------------------------------------
+	#Unit Armor for All Units
+	#Range: 1.0 ~ 100.0
+	armor = 3.0
+	#--------------------------------------------------
+	#Walk Speed for All Units
+	#Range: 0.05 ~ 1.5
+	speed = 0.27
+	#--------------------------------------------------
+	#Detection Range for All Units
+	#Range: 32.0 ~ 384.0
+	detectionRange = 96.0
+
+[ai_difficulty]
+	#AI Difficulty preset.
+	#Does NOT affect soldiers accuracy.
+	#Only affects tactical maneuver timers and movement speeds.
+	#
+	#NORMAL: More static soldiers, slower combat pacing.
+	#ADVANCED: More dynamic and aggressive soldiers.
+	#Allowed Values: NORMAL, ADVANCED
+	difficulty = "NORMAL"
+
+[gun_ai_shooting_config]
+	#Maximum shooting distance
+	#Range: 10.0 ~ 384.0
+	maxShootDistance = 90.0
+	#Base bullet spread (lower = more accurate)
+	#Range: 0.0 ~ 10.0
+	baseSpread = 1.4
+	#Spread increase per block of distance to target (accuracy penalty at range)
+	#Range: 0.0 ~ 1.0
+	spreadIncrease = 0.012
+	#Maximum bullet spread limit
+	#Prevents accuracy penalties from increasing indefinitely at long range
+	#Range: 0.0 ~ 10.0
+	maxSpread = 1.2
+	#Minimum shots per burst
+	#Range: 1 ~ 20
+	minBurst = 3
+	#Maximum shots per burst
+	#Range: 1 ~ 30
+	maxBurst = 5
+	#Minimum cooldown between bursts (ticks)
+	#Range: 0 ~ 200
+	minBurstCooldown = 10
+	#Maximum cooldown between bursts (ticks)
+	#Range: 0 ~ 400
+	maxBurstCooldown = 15
+
+[tactical_ai_phase_1]
+	#Allow NPCs to break navigation clutter such as grass, leaves and glass while following a path.
+	enableSoftObstacleBreaking = false
+	#Allow NPCs to use a ladder-aware fallback route when vanilla navigation cannot resolve vertical movement.
+	enableLadderFallback = true
+	#Use tactical line-of-sight checks so foliage, bushes, glass and other soft visual clutter do not block target acquisition or firing.
+	enablePreciseFoliageLos = false
+	#Reject tactical movement and cover positions that require standing in dangerous blocks such as lava, fire, cactus or magma.
+	enableHazardousCoverRejection = true
+	#Minimum ticks between repeated line-of-sight checks against the same target.
+	#Range: 1 ~ 40
+	aiLosCacheTicks = 4
+
+[tactical_ai_phase_2]
+	#Use scored tactical cover selection instead of returning the first adjacent blocking block.
+	enableSmartCoverSearch = true
+	#Only select a cover or evasion position when the NPC can create a path to it.
+	enableCoverPathValidation = true
+	#When no real cover is reachable, allow NPCs to perform short fallback evasion instead of standing still.
+	enableFallbackEvasion = true
+	#Cooldown applied after expensive cover searches to protect server performance.
+	#Range: 5 ~ 200
+	coverSearchCooldownTicks = 30
+	#Additional radius used for the relaxed fallback cover pass after strict cover search fails.
+	#Range: 0 ~ 12
+	coverRelaxedExtraRadius = 4
+	#Maximum local radius used when selecting fallback evasion positions.
+	#Range: 2 ~ 12
+	fallbackEvasionRadius = 5
+	#Maximum number of cheap cover candidates scored per search pass before path validation. Lower values protect TPS in large fights.
+	#Range: 8 ~ 512
+	coverSearchMaxCandidates = 96
+	#Maximum number of vanilla createPath checks allowed per cover/evasion search pass. Pathfinding is intentionally deferred to the top-scored candidates only.
+	#Range: 1 ~ 32
+	coverSearchMaxPathChecks = 3
+	#Global server-thread budget for expensive cover searches per tick. Extra units retry with a short jittered delay.
+	#Range: 1 ~ 20
+	coverSearchesPerTick = 2
+	#Small per-unit retry jitter when the global cover-search budget is exhausted, preventing synchronized pathfinding spikes.
+	#Range: 1 ~ 40
+	coverSearchBudgetJitterTicks = 6
+
+[tactical_ai_phase_3]
+	#Enable generic tactical suppression for SEM units from nearby bullet impacts and sustained gunfire.
+	enableTacticalSuppression = true
+	#Radius where bullet impacts or suppressive fire add pressure to tactical units.
+	#Range: 0.5 ~ 48.0
+	suppressionImpactRadius = 7.0
+	#Base suppression amount before distance falloff.
+	#Range: 0.0 ~ 5.0
+	suppressionImpactAmount = 0.24
+	#Amount of suppression cleared from each unit every server tick.
+	#Range: 0.0 ~ 1.0
+	suppressionDecayPerTick = 0.018
+	#Suppression level where units request emergency cover using the Phase 2 cover system.
+	#Range: 0.0 ~ 10.0
+	suppressionStrongThreshold = 0.9
+	#Additional base spread degrees applied per suppression point while a unit keeps firing under pressure.
+	#Range: 0.0 ~ 20.0
+	suppressionAccuracySpreadPenalty = 2.0
+	#Movement ownership duration used when strong suppression forces a SEEK_COVER request.
+	#Range: 10 ~ 400
+	suppressionCoverLockTicks = 70
+	#Minimum ticks between repeated suppression applications from the same source once a unit is already strongly suppressed.
+	#Range: 0 ~ 80
+	suppressionSourceDebounceTicks = 6
+	#Enable generic combat sound awareness for SEM units.
+	enableTacticalHearing = true
+	#Radius where hostile gunfire can be heard and investigated by SEM units without direct line of sight.
+	#Range: 1.0 ~ 128.0
+	gunshotHearingRadius = 42.0
+	#Minimum attenuated sound strength required for an idle unit to investigate hostile gunfire.
+	#Range: 0.0 ~ 1.0
+	soundMinStrength = 0.18
+	#Ticks an idle unit remembers a heard hostile gunshot position.
+	#Range: 10 ~ 1200
+	gunshotMemoryTicks = 160
+	#Navigation speed used while moving to investigate a heard hostile gunshot.
+	#Range: 0.1 ~ 3.0
+	soundInvestigateSpeed = 1.05
+	#Distance used to decide that a heard gunshot investigation point has been reached.
+	#Range: 0.5 ~ 16.0
+	soundInvestigateReachedDistance = 3.0
+
+[tactical_ai_phase_4]
+	#Enable Phase 4 threat-pressure/combat-confidence tactical decision layer.
+	enableTacticalDecisionLayer = true
+	#Per-unit interval between expensive tactical confidence evaluations. Higher values reduce CPU and log churn.
+	#Range: 2 ~ 100
+	tacticalDecisionIntervalTicks = 12
+	#Movement ownership duration when Phase 4 pressure/confidence requests cover or retreat.
+	#Range: 10 ~ 400
+	tacticalDecisionCoverLockTicks = 70
+	#Threat pressure above which low-confidence units prefer emergency cover/retreat behavior.
+	#Range: 0.0 ~ 1.0
+	tacticalRetreatPressureThreshold = 0.88
+	#Threat pressure above which units prefer cover instead of active maneuvering.
+	#Range: 0.0 ~ 1.0
+	tacticalCoverPressureThreshold = 0.62
+	#Combat confidence above which units may push or reposition aggressively when pressure is manageable.
+	#Range: 0.0 ~ 1.0
+	tacticalPushConfidenceThreshold = 0.72
+	#Enable lightweight local squad context for Phase 4 decisions: nearby allies, engaged allies, suppressed allies and local numerical advantage.
+	enableSquadContext = true
+	#Enable shared squad combat memory for recently observed/heard/suppression-derived enemy positions.
+	enableSquadCombatMemory = true
+	#Radius used to build a local squad context around each unit.
+	#Range: 4.0 ~ 96.0
+	squadContextRadius = 18.0
+	#Maximum distance where units of the same faction can reuse shared last-known enemy memory.
+	#Range: 4.0 ~ 128.0
+	squadMemoryShareRadius = 36.0
+	#Ticks before shared squad enemy memory becomes stale.
+	#Range: 10 ~ 1200
+	squadMemoryTicks = 120
+	#Coarse grid size used to group squad combat memory entries by faction and area.
+	#Range: 8 ~ 96
+	squadMemoryGridSize = 24
+	#Enable lightweight distance-priority target selection and close-threat retargeting. This is intentionally simple and can be expanded later with threat scoring.
+	enableDistanceTargetPriority = true
+	#Distance in blocks where a newly visible hostile is considered an immediate close threat and can steal target priority from a farther target.
+	#Range: 1.0 ~ 48.0
+	closeThreatSwitchDistance = 8.0
+	#A visible candidate may replace the current target when its distance squared is below currentDistanceSquared * this ratio. Lower values make retargeting more conservative.
+	#Range: 0.05 ~ 1.0
+	closeThreatSwitchRatio = 0.72
+	#Per-unit interval for scanning close-threat target switches while already engaged.
+	#Range: 1 ~ 40
+	closeThreatSwitchScanIntervalTicks = 6
+	#Automatically run Spark profiler for each /sem test loop_all scenario and attach the Spark URL to the scenario JSONL log. Requires Spark to be installed.
+	enableSemLoopSparkProfiling = true
+	#Ticks to wait after scenario setup before starting Spark profiling in /sem test loop_all. This keeps arena setup, spawning, loadout assignment and first-tick initialization out of the profiler.
+	#Range: 0 ~ 600
+	semLoopSparkWarmupTicks = 40
+	#Log lightweight server-tick timing samples and slow-tick warnings into active /sem scenario JSONL logs.
+	enableSemTickProfiler = true
+	#Write periodic TICK_SAMPLE entries while a /sem scenario is running. TICK_WARN entries are still written when the threshold is exceeded.
+	enableSemTickSamples = true
+	#Interval for periodic TICK_SAMPLE entries in active /sem scenario logs.
+	#Range: 1 ~ 1200
+	semTickSampleIntervalTicks = 20
+	#Server tick duration in milliseconds that creates a TICK_WARN entry in active /sem scenario logs.
+	#Range: 1.0 ~ 10000.0
+	semTickWarnThresholdMs = 50.0
+	#Server tick duration in milliseconds that marks a TICK_WARN entry as severe.
+	#Range: 1.0 ~ 10000.0
+	semTickSevereThresholdMs = 100.0
+
+[event_spawn]
+	#--------------------------------------------------
+	#Global cooldown ticks between events. 20 ticks = 1 second. 4800 = 4 minutes
+	#Range: 100 ~ 72000
+	eventGlobalCooldownTicks = 4800
+	#Ticks between event evaluation attempts per player. 20 ticks = 1 second. Default: 1200 = 1 minute
+	#Range: 100 ~ 72000
+	eventTickWindow = 1200
+	#Base spawn chance for Patrol Event (per minute)
+	#Range: 0.01 ~ 1.0
+	patrolBaseChance = 0.1
+	#--------------------------------------------------
+	#Chance accumulation rate on failure for Patrol Event
+	#Range: 0.01 ~ 0.5
+	patrolFailureMultiplier = 0.15
+	#--------------------------------------------------
+	#Minimum squad size for Patrol Event
+	#Range: 1 ~ 10
+	patrolMinSize = 3
+	#Maximum squad size for Patrol Event
+	#Range: 1 ~ 20
+	patrolMaxSize = 4
+	#Base spawn chance for Combat Event (per minute)
+	#Range: 0.01 ~ 1.0
+	combatBaseChance = 0.08
+	#--------------------------------------------------
+	#Chance accumulation rate on failure for Combat Event
+	#Range: 0.01 ~ 0.5
+	combatFailureMultiplier = 0.12
+	#--------------------------------------------------
+	#Minimum squad size for Combat Event (per faction)
+	#Range: 1 ~ 10
+	combatMinSize = 3
+	#Maximum squad size for Combat Event (per faction)
+	#Range: 1 ~ 20
+	combatMaxSize = 5
+	#Base spawn chance for Cave Extraction Event (per minute)
+	#Range: 0.01 ~ 1.0
+	caveBaseChance = 0.02
+	#--------------------------------------------------
+	#Chance accumulation rate on failure for Cave Extraction Event
+	#Range: 0.01 ~ 0.5
+	caveFailureMultiplier = 0.2
+	#--------------------------------------------------
+	#Minimum squad size for Cave Extraction Event
+	#Range: 1 ~ 10
+	caveMinSize = 2
+	#--------------------------------------------------
+	#Maximum squad size for Cave Extraction Event
+	#Range: 1 ~ 20
+	caveMaxSize = 4
+
+[Drops]
+	#Enables or disables modified weapon drops for Units.
+	enableCustomDrops = true
+	#Probability that a Unit will drop its TACZ weapon upon death (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	gunDropChance = 1.0
+	#Probability that a Unit will drop extra ammo upon death (0.0 to 1.0).
+	#Range: 0.0 ~ 1.0
+	ammoDropChance = 0.5
+
+["Visual Effects"]
+	#Activate or deactivate the visual suppression effect
+	enableSuppression = true
+
+[misc_config]
+	#Item ID required to recruit a PMC
+	recruitItem = "minecraft:emerald"
+	#Amount of items required to recruit a PMC
+	#Range: 1 ~ 64
+	recruitPrice = 16
+

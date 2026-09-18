@@ -1,0 +1,9 @@
+
+[unit_render_distance]
+	#Max Render Distance (in Blocks) for Units
+	#Important!!: Render Distance => Detection Range
+	#Range: 32 ~ 384
+	renderDistance = 128
+	#Activate or deactivate the visual Muzzle Flash effect
+	enableMuzzleFlash = true
+

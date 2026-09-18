@@ -1,0 +1,7 @@
+
+[vehicles]
+	#Use multicrew vehicle configurations (separate driver/gunner seats)
+	#instead of the single-crew defaults where one person runs everything.
+	#Applies on world load or /reload.
+	multicrew_vehicles = false
+

@@ -1,0 +1,249 @@
+{
+  "comment": "FCP  Point Blank integration. Keys are registry ids. projectileWarheads maps a VPB projectile ENTITY id to the SBW warhead it is replaced by on impact: directDamage is a flat hit on the struck entity (runs through SBW vehicle DamageModifiers/armor), explosionDamage/explosionRadius are the AoE blast. AP \u003d direct only; HE \u003d explosion only; HEAT \u003d both. muzzleSmokeProjectiles lists VPB projectile ENTITY ids that emit the SBW-RPG muzzle + downrange smoke when fired. Enable debugLogging to print unmapped pointblank ids to the log so you can discover the exact strings for your installed content packs.",
+  "debugLogging": false,
+  "projectileWarheads": {
+    "pointblank:example_rocket": {
+      "directDamage": 200.0,
+      "explosionDamage": 90.0,
+      "explosionRadius": 6.0,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg7v2_pg7vm": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_rpg7v2_pg7vr": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg7v2_og7v": {
+      "directDamage": 0.0,
+      "explosionDamage": 50.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_smaw_heaa": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_smaw_hedm": {
+      "directDamage": 200.0,
+      "explosionDamage": 70.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg26_rocket": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_m72_rocket": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_rpg28_rocket": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_at4_rocket": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_dzj08_round": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:grenade40mm": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 5,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:cs_grenade30mm": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 5,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:cs_grenade7g23": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 5,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_carlgustaf_he448": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_carlgustaf_heat551crs": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_carlgustaf_heat758": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_carlgustaf_hedp502": {
+      "directDamage": 200.0,
+      "explosionDamage": 70.0,
+      "explosionRadius": 5,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg29_og29": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg29_pg29v": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_rpg29_mg29": {
+      "directDamage": 200.0,
+      "explosionDamage": 70.0,
+      "explosionRadius": 5,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_panzerfaust3_bunkerfaust": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_panzerfaust3_tandem": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_panzerfaust3_heat": {
+      "directDamage": 250.0,
+      "explosionDamage": 35.0,
+      "explosionRadius": 5.2,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": false
+    },
+    "pointblank:fcl_pf98_he": {
+      "directDamage": 0.0,
+      "explosionDamage": 100.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_pf98_heat": {
+      "directDamage": 400.0,
+      "explosionDamage": 28.0,
+      "explosionRadius": 5.6,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    },
+    "pointblank:fcl_pf98_hei": {
+      "directDamage": 200.0,
+      "explosionDamage": 70.0,
+      "explosionRadius": 7,
+      "explosionParticle": "MEDIUM",
+      "fireTime": 0,
+      "destroyBlocks": true
+    }
+  },
+  "muzzleSmokeProjectiles": [
+    "pointblank:example_rocket",
+    "pointblank:fcl_at4_rocket",
+    "pointblank:fcl_rpg26_rocket",
+    "pointblank:fcl_smaw_hedm",
+    "pointblank:fcl_smaw_heaa",
+    "pointblank:fcl_rpg7v2_pg7vm",
+    "pointblank:fcl_rpg7v2_pg7vr",
+    "pointblank:fcl_rpg7v2_og7v",
+    "pointblank:fcl_rpg28_rocket",
+    "pointblank:fcl_m72_rocket",
+    "pointblank:fcl_dzj08_round",
+    "pointblank:fcl_carlgustaf_he448",
+    "pointblank:fcl_carlgustaf_heat551crs",
+    "pointblank:fcl_carlgustaf_heat758",
+    "pointblank:fcl_carlgustaf_hedp502",
+    "pointblank:fcl_rpg29_og29",
+    "pointblank:fcl_rpg29_pg29v",
+    "pointblank:fcl_rpg29_mg29",
+    "pointblank:fcl_panzerfaust3_bunkerfaust",
+    "pointblank:fcl_panzerfaust3_tandem",
+    "pointblank:fcl_panzerfaust3_heat",
+    "pointblank:fcl_pf98_he",
+    "pointblank:fcl_pf98_heat",
+    "pointblank:fcl_pf98_hei",
+    "pointblank:cs_m202_rocket"
+  ]
+}
