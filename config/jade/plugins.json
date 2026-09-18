@@ -54,6 +54,20 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -64,6 +78,16 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "dynamictrees": {
+    "rooty_water": true,
+    "pod": true,
+    "fruit": true,
+    "rooty": true,
+    "branch": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "superbwarfare": {
     "dps_generator": true,
