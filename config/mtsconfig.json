@@ -156,7 +156,20 @@
         "acmecivil": 1.0,
         "cmapartsfortransport": 1.0,
         "iavm": 1.0,
-        "cmapdecors": 1.0
+        "cmapdecors": 1.0,
+        "pwic_bullets": 1.0,
+        "panzerkrieg": 1.0,
+        "pwic_parts": 1.0,
+        "vehiclesofsurvival": 1.0,
+        "pwic_common": 1.0,
+        "qmp_d": 1.0,
+        "qmp_a": 1.0,
+        "qmp_s": 1.0,
+        "pwic_nato": 1.0,
+        "ccynho": 1.0,
+        "qmp_n": 1.0,
+        "pwic_ovd": 1.0,
+        "svmp": 1.0
       },
       "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
     },
@@ -192,7 +205,20 @@
         "acmecivil": 1.0,
         "cmapartsfortransport": 1.0,
         "iavm": 1.0,
-        "cmapdecors": 1.0
+        "cmapdecors": 1.0,
+        "pwic_bullets": 1.0,
+        "panzerkrieg": 1.0,
+        "pwic_parts": 1.0,
+        "vehiclesofsurvival": 1.0,
+        "pwic_common": 1.0,
+        "qmp_d": 1.0,
+        "qmp_a": 1.0,
+        "qmp_s": 1.0,
+        "pwic_nato": 1.0,
+        "ccynho": 1.0,
+        "qmp_n": 1.0,
+        "pwic_ovd": 1.0,
+        "svmp": 1.0
       },
       "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
     },
@@ -308,7 +334,20 @@
         "acmecivil": 1.0,
         "cmapartsfortransport": 1.0,
         "iavm": 1.0,
-        "cmapdecors": 1.0
+        "cmapdecors": 1.0,
+        "pwic_bullets": 1.0,
+        "panzerkrieg": 1.0,
+        "pwic_parts": 1.0,
+        "vehiclesofsurvival": 1.0,
+        "pwic_common": 1.0,
+        "qmp_d": 1.0,
+        "qmp_a": 1.0,
+        "qmp_s": 1.0,
+        "pwic_nato": 1.0,
+        "ccynho": 1.0,
+        "qmp_n": 1.0,
+        "pwic_ovd": 1.0,
+        "svmp": 1.0
       },
       "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
     }
