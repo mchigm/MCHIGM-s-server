@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "combos": [
+    {
+      "mappingName": "key.securitycraft.cameraEmitRedstone",
+      "action": "Toggle Redstone Output",
+      "category": "key.categories.securitycraft",
+      "firstKey": "key.keyboard.left.alt",
+      "secondKey": "key.keyboard.r",
+      "updatedAt": "2026-09-21T16:57:48.512063700"
+    },
+    {
+      "mappingName": "key.securitycraft.cameraActivateNightVision",
+      "action": "Toggle Night Vision",
+      "category": "key.categories.securitycraft",
+      "firstKey": "key.keyboard.left.alt",
+      "secondKey": "key.keyboard.n",
+      "updatedAt": "2026-09-21T16:57:51.646702900"
+    }
+  ]
+}

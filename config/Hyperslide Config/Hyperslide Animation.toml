@@ -1,0 +1,5 @@
+
+[animations]
+	"enable slide animation" = true
+	"list of items that disables arm animations when held" = ["", ""]
+

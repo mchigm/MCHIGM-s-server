@@ -1,0 +1,14 @@
+
+[Walljump]
+	"Enable Walljump Break Particles" = false
+
+[Wallrun]
+	"Enable Wallrun Particles" = false
+
+["Smash Vfx"]
+	"Show ''Warning'' Magic Circle where a smash is going to land" = true
+	"enable smash fall particles" = true
+
+[Slide]
+	"enable slide particles" = false
+

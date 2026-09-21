@@ -9,7 +9,7 @@
     "enable_memory_tracing": false,
     "use_advanced_staging_buffers": true,
     "disable_incompatible_mod_warnings": false,
-    "cpu_render_ahead_limit": 3
+    "cpu_render_ahead_limit": 5
   },
   "performance": {
     "chunk_builder_threads": 0,

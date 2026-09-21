@@ -12,13 +12,13 @@
 	#Whether or not the player will consume ammo in creative mode
 	CreativePlayerConsumeAmmo = true
 	#Auto reload all the guns in player inventory, useful for pvp servers
-	AutoReloadWhenRespawn = false
+	AutoReloadWhenRespawn = true
 
 [ammo]
 	#Warning: Ammo with explosive properties can break blocks
 	ExplosiveAmmoDestroysBlock = true
 	#Warning: Ammo with explosive properties can set the surroundings on fire
-	ExplosiveAmmoFire = false
+	ExplosiveAmmoFire = true
 	#Ammo with explosive properties can add knockback effect
 	ExplosiveAmmoKnockBack = true
 	#The distance at which the explosion effect can be seen

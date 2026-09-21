@@ -1,0 +1,86 @@
+
+["Toggle Base Mechanics"]
+	"Enable Slide" = true
+	"enable smash" = true
+	"enable slidejumping" = false
+	"enable smasjump" = true
+	"enable walljump" = true
+	"enable wallrun" = true
+	"enable wallbump" = true
+	"enable wallhang" = true
+
+[slide]
+	#i suggest having this set to 4 if minehop or squake are installed, DO NOT SET IT TO 0 YOU'LL GO SO FAST MINECRAFT WILL FREAKIN CRASH
+	"slidespeed base decreaser" = 8.0
+	"should slide get canceled if the player jumps? (slidejump already does this, this option is in case slidejump is disabled)" = true
+	"minimum blocks/second speed needed to slide" = 3.0
+	"slide friction " = 0.25
+	"Should slide make the player bounce off water" = true
+	"Y speed Cap used for speed multipliers" = 8.0
+	"speed required to try using advanced direction calculations" = 22.0
+	"slide speed calculation curve steepness" = 1.0
+	"max output of slide curve calculations" = 9.0
+	"curve calculation Softness" = 30.0
+	"multiplier of the speed added to sliding player after a fall" = 2.7
+
+[Smash]
+	"Smash Cooldown in ticks" = 80.0
+	"smash Cooldown Removal on Smash Fail" = 35.0
+	"text to display when smash is still on Cooldown" = "Smash is Still On CoolDown!"
+	"the damage tier 1 smash does on hit" = 2.0
+	"the damage tier 2 smash does on hit" = 3.5
+	"the damage tier 3 smash does on hit" = 5.0
+	"the damage tier 4 smash does on hit" = 12.0
+	"should tier 4 smash break blocks?" = true
+	"explosion radius of the tier 4 explosion (XZ)" = 5.0
+	"explosion radius of the tier 4 explosion (Y)" = 4.0
+	"whats the highest hardness tier4 smash explosion can break?" = 0.8
+	"smash tier 4 height" = 220.0
+	"smash tier 3 height" = 30.0
+	"smash tier 2 height" = 8.0
+	"smash tier 1 height" = 0.0
+	"smash tier 1 shockwave speed" = 0.2
+	"smash tier 2 shockwave speed" = 0.3
+	"smash tier 3 shockwave speed" = 0.4
+	"smash tier 1 shockwave projectile amount" = 20.0
+	"smash tier 2 shockwave projectile amount" = 30.0
+	"smash tier 3 shockwave projectile amount" = 30.0
+	"shockwave entity ticks lifespan (tier1)" = 10.0
+	"shockwave entity ticks lifespan (tier2)" = 15.0
+	"shockwave entity ticks lifespan (tier3)" = 20.0
+	"falldamage absorption %" = 100.0
+
+[slidejump]
+	"should be able to slidejump while crouching" = false
+	"xz slidejump speed multiplier" = 0.7
+	"y slidejump speed multiplier" = 0.7
+	"slidejump headpitch needed to bulletjump" = -5.0
+	"enable slidejump when sliding" = true
+
+[walljump]
+	"Y Height gain On Walljump" = 0.5
+	#Disclaimer: The difference between walljump speed gain and walljump separation force difference should be always 0.1 if you want a smooth expirience
+	"Walljump Speed Gain" = 0.6
+	"Walljump Separation from Wall Force" = 0.6
+	"enable Walljumping when not wallrunning" = true
+	"should walljump restore  wallrun" = true
+
+[wallrun]
+	"Should Wallrun Reset Your Doublejump?" = true
+	"Wallrun Acceleration Level" = 0.08
+	"Wallrun Speed HardCap (blocks/s)" = 255.0
+	#the wallrun options after this one are all work in progress
+	"how long a wallrun can last in ticks, 6969 disables the timer" = 6969.0
+	#type 1 is no height loss while holding W or S, type 2 is configurable constant height loss and type 3 is height loss if moving under a certain speed
+	"wallrun height loss type" = 1.0
+	"wallrun type 2 height loss" = -0.2
+	"wallrun height loss type 3 speed" = 5.0
+
+["Should Config override Attributes"]
+	#if this variable is true attributes will always match the config options, if this variable is set to false attributes will match the config options only by default (thus when they have not been modified)
+	"Should Config override Attributes" = true
+
+["(experimental) momentum based wallrun"]
+	#this will use speed/momentum calculations similar to the ones slide uses to simulate momentum (this is work in progres and prolly dosent even work as of now)
+	"enable momentum based wallrun" = false
+

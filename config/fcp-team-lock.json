@@ -1,0 +1,11 @@
+{
+  "_comment": "Frontline Combat Pack - persistent per-vehicle team lock. Teams are vanilla scoreboard teams. Blocks ALL right-click interaction (enter, inventory, repaint, crowbar, name tag) with enemy vehicles; left-click attacks and gunfire are never affected.",
+  "enforce": true,
+  "autoClaimOnEnter": true,
+  "blockUnclaimed": false,
+  "opBypass": true,
+  "applyToNonFcpVehicles": true,
+  "messageCooldownTicks": 40,
+  "_interactionBypassItems_comment": "Item IDs allowed to interact with enemy vehicles anyway (e.g. keep C4 working): [\"superbwarfare:c4_bomb\", \"superbwarfare:detonator\"]. Empty \u003d block everything.",
+  "interactionBypassItems": []
+}

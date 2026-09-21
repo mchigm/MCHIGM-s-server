@@ -1,0 +1,22 @@
+{
+  "_comment": "Optional per-slot overrides; delete an entry to use its default. border = nine-slice corner inset in px; tint = multiply by status colour; scale = nineslice | stretch | tile.",
+  "slots": {
+    "panel": { "border": 10, "tint": false, "scale": "nineslice" },
+    "button": { "border": 4, "tint": false, "scale": "nineslice" },
+    "button_hover": { "border": 4, "tint": false, "scale": "nineslice" },
+    "button_disabled": { "border": 4, "tint": false, "scale": "nineslice" },
+    "editbox": { "border": 3, "tint": false, "scale": "nineslice" },
+    "editbox_focused": { "border": 3, "tint": false, "scale": "nineslice" },
+    "tooltip": { "border": 6, "tint": false, "scale": "nineslice" },
+    "key": { "border": 6, "tint": true, "scale": "nineslice" },
+    "key_free": { "border": 6, "tint": false, "scale": "nineslice" },
+    "key_self": { "border": 6, "tint": false, "scale": "nineslice" },
+    "key_other": { "border": 6, "tint": false, "scale": "nineslice" },
+    "key_combo": { "border": 6, "tint": false, "scale": "nineslice" },
+    "key_conflict": { "border": 6, "tint": false, "scale": "nineslice" },
+    "keyboard_chassis": { "border": 12, "tint": false, "scale": "nineslice" },
+    "mouse_body": { "border": 0, "tint": false, "scale": "stretch" },
+    "mouse_button": { "border": 6, "tint": true, "scale": "nineslice" },
+    "background": { "border": 0, "tint": false, "scale": "tile" }
+  }
+}

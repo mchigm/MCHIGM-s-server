@@ -2,7 +2,7 @@
 [reload]
 	#Set true if you want to reload guns when ammo is empty by clicking left button
 	#是否启用快捷换弹（点击左键触发换弹）
-	left_click_reload = true
+	left_click_reload = false
 
 [kill_message]
 	#Set true if you want to show kill message
@@ -28,7 +28,7 @@
 	[kill_message.display]
 		#Set true to enable gun lod
 		#是否启用枪械低模
-		enable_gun_lod = false
+		enable_gun_lod = true
 		#The x offset of weapon hud
 		#枪械HUD的水平方向偏移量
 		#Range: -1000 ~ 1000
@@ -80,7 +80,7 @@
 		dog_tag_name_visible = true
 		#Set true to show the icon of dog tag in kill messages
 		#是否开启击杀提示的狗牌图标显示
-		dog_tag_icon_visible = false
+		dog_tag_icon_visible = true
 		#The strength of screen shaking while firing with a weapon
 		#使用武器开火时的屏幕晃动强度
 		#Range: 0 ~ 100

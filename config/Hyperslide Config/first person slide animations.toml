@@ -1,0 +1,27 @@
+
+["Slide Experimental Hands Animation"]
+	"enable Slide Experimental Hands Animation" = true
+
+["MainHand Rotation"]
+	"MainHand Rotation X" = 0.0
+	"MainHand Rotation Y" = 0.0
+	"MainHand Rotation Z" = 60.0
+
+["OffHand Rotation"]
+	"OffHand Rotation X" = 0.0
+	"OffHand Rotation Y" = 0.0
+	"OffHand Rotation Z" = -0.7
+
+["MainHand Position"]
+	"MainHand Position X" = 0.0
+	"MainHand Position Y" = 0.0
+	"MainHand Position Z" = -0.7
+
+["OffHand Position"]
+	"OffHand Position Z" = 0.0
+	"OffHand Position Y" = 0.0
+	"OffHand Position X" = 0.0
+
+["time it takes to get to the position/rotation"]
+	"time it takes to get to the position/rotation" = 220.0
+
