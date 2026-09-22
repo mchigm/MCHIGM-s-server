@@ -1,0 +1,71 @@
+{
+  "model": "daffas_arsenal:gun/samula3_geo",
+  "texture": "daffas_arsenal:gun/uv/samula3",
+  "lod": {
+    "model": "daffas_arsenal:gun/samula3_geo",
+    "texture": "daffas_arsenal:gun/uv/samula3"
+  },
+  "hud": "daffas_arsenal:gun/hud/samula3",
+  "slot": "daffas_arsenal:gun/slot/samula3",
+  "animation": "daffas_arsenal:samula3",
+  "use_default_animation": "rifle",
+  "default_animation": "daffas_arsenal:daffas_default",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.75, 0.75, 0.75],
+      "ground": [0.75, 0.75, 0.75],
+      "fixed": [1.4, 1.4, 1.4]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "daffas_arsenal:flash/daffas_muzzle_flash_elektrikal",
+    "scale": 0
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "daffas_arsenal:samula3/daffas_samula3",
+    "shoot_3p": "daffas_arsenal:samula3/daffas_samula3",
+    "silence": "daffas_arsenal:samula3/daffas_samula3",
+    "silence_3p": "daffas_arsenal:samula3/daffas_samula3e",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+
+  "laser": {
+
+    "default_color": "0x00FF00",
+
+    "can_edit": true,
+
+    "length": 10,
+
+    "width": 0.008
+  },
+
+
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

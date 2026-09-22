@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.pegontmc",
+  "display": "daffas_arsenal:pegotnmc_display",
+  "data": "daffas_arsenal:pegontmc_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.pegontmc.desc",
+  "sort": 200
+}

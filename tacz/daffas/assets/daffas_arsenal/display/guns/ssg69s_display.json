@@ -1,0 +1,46 @@
+{
+  "model": "daffas_arsenal:gun/ssg69s_geo",
+  "texture": "daffas_arsenal:gun/uv/ssg69s",
+  "lod": {
+    "model": "daffas_arsenal:gun/ssg69s_geo",
+    "texture": "daffas_arsenal:gun/uv/ssg69s"
+  },
+  "hud": "daffas_arsenal:gun/hud/ssg69s",
+  "slot": "daffas_arsenal:gun/slot/ssg69s",
+  "default_animation": "daffas_arsenal:daffas_default",
+  "animation": "daffas_arsenal:ssg69s",
+  "use_default_animation": "rifle",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.59, 0.59, 0.59],
+      "ground": [0.59, 0.59, 0.59],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "daffas_arsenal:flash/daffas_muzzle_flash_fire_old",
+    "scale": 0
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 70,
+  "sounds": {
+    "shoot": "daffas_arsenal:supressor/daffas_sniper",
+    "shoot_3p": "daffas_arsenal:supressor/daffas_sniper",
+    "silence": "daffas_arsenal:supressor/daffas_sniper",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

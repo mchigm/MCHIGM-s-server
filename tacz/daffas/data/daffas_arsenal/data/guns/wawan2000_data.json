@@ -1,0 +1,113 @@
+{
+  "ammo": "tacz:308",
+  "ammo_amount": 6,
+  "bolt": "closed_bolt",
+  "rpm": 175,
+  "bullet": {
+    "life": 0.9,
+    "bullet_amount": 1,
+    "damage": 25,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 1.95,
+      "damage_adjust": [
+        {"distance": 10, "damage": 25.0},
+        {"distance": 30, "damage": 24.8},
+        {"distance": 50, "damage": 24.6},
+        {"distance": 70, "damage": 24.4},
+        {"distance": 90, "damage": 24.2},
+        {"distance": 110, "damage": 24.0},
+        {"distance": 130, "damage": 23.8},
+        {"distance": 150, "damage": 23.6},
+        {"distance": 170, "damage": 23.4},
+        {"distance": 190, "damage": 23.2},
+        {"distance": "infinite", "damage": 23}
+      ]
+    },
+    "speed": 380,
+    "gravity": 0.07,
+    "knockback": 0.2,
+    "friction": 0.01,
+    "ignite": false,
+    "pierce": 2,
+    "explosion": {
+      "explode": false,
+      "damage": 25,
+      "radius": 0.01,
+      "knockback": false,
+      "delay": 1
+    }
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.40,
+      "tactical": 2.40
+    },
+    "cooldown": {
+      "empty": 4.0008,
+      "tactical": 3.4008
+    }
+  },
+  "draw_time": 1.6042,
+  "put_away_time": 0.9583,
+  "aim_time": 0.35,
+  "sprint_time": 0.2,
+  "weight": 7.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.35,
+    "reload": -0.35
+  },
+  "crawl_recoil_multiplier": 0.5,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0.05, "value": [1.5, 2]},
+      {"time": 0.75, "value": [0.1, 0.1]},
+      {"time": 0.96, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0.05, "value": [-1.5, -0.5]},
+      {"time": 0.75, "value": [0.1, 0.1]},
+      {"time": 0.96, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 6,
+    "move": 8,
+    "sneak": 5,
+    "lie": 3,
+    "aim": 0.1
+  },
+  "melee": {
+
+    "distance": 0,
+
+
+    "cooldown": 0,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 2,
+
+      "range_angle": 40,
+
+      "cooldown": 1,
+
+      "damage": 2,
+
+      "knockback": 0.5,
+
+      "prep": 0.15
+    }
+  },
+  "allow_attachment_types": [
+    "scope"
+  ]
+}

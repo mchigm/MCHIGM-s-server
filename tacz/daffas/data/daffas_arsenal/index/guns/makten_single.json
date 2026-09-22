@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.makten_single",
+  "display": "daffas_arsenal:maktensingle_display",
+  "data": "daffas_arsenal:makten_single_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.makten_single.desc",
+  "sort": 200
+}

@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.attachment.makten_stock.name",
+  "tooltip": "daffas_arsenal.attachment.makten_stock.desc",
+  "display": "daffas_arsenal:makten_stock_display",
+  "data": "daffas_arsenal:makten_stock_data",
+  "type": "stock",
+  "sort": 10
+}

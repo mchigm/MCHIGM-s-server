@@ -1,0 +1,7 @@
+{
+  "hidden": true,
+  "name": "daffas_arsenal.attachment.muzzle_silencer_bandage.name",
+  "display": "daffas_arsenal:muzzle_silencer_bandage_display",
+  "data": "daffas_arsenal:muzzle_silencer_bandage_data",
+  "type": "muzzle"
+}

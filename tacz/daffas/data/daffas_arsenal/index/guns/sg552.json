@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.sg552",
+  "display": "daffas_arsenal:sg552_display",
+  "data": "daffas_arsenal:sg552_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.sg552.desc",
+  "sort": 200
+}

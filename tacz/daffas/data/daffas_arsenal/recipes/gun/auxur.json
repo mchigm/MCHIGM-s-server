@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "daffas_arsenal:auxur",
+    "attachments": {
+      "scope": "daffas_arsenal:scope_auxur"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

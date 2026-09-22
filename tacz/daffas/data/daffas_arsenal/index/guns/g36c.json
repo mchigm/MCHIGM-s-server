@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.g36c",
+  "display": "daffas_arsenal:g36c_display",
+  "data": "daffas_arsenal:g36c_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.g36c.desc",
+  "sort": 200
+}

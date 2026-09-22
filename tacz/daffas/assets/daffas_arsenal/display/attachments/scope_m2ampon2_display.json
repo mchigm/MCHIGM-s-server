@@ -1,0 +1,26 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/scope_m2ampon2",
+  "model": "daffas_arsenal:attachment/scope_m2ampon2_geo",
+  "texture": "daffas_arsenal:attachment/uv/scope_m2ampon",
+  "lod": {
+    "model": "daffas_arsenal:attachment/scope_m2ampon2_geo",
+    "texture": "daffas_arsenal:attachment/uv/scope_m2ampon"
+  },
+  "zoom": [
+    2,
+    1.5
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    45.0,
+    80.0
+  ],
+  "scope": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

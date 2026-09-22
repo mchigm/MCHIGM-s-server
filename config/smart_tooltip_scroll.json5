@@ -1,0 +1,28 @@
+{
+	// If custom Tooltip dimensions are enabled.
+	custom_tooltip_dimensions: true,
+	// How to handle long tooltip titles that exceed the maximum tooltip width. Accepts: TRUNCATE, WRAP, SCROLL
+	title_overflow_mode: "SCROLL",
+	// Maximum percentage of the Minecraft window allowed as the tooltip height.
+	max_height_percentage: 50,
+	// Maximum percentage of the Minecraft window allowed as the tooltip width.
+	max_width_percentage: 50,
+	// If scrolling in different containers is disabled while scrolling on a tooltip. You probably don't want to disable this.
+	lock_container_scrolling: true,
+	// The style of the scroll animation. Accepts: CLASSIC, SMOOTH, SNAPPY
+	scroll_easing_style: "SMOOTH",
+	// Smoothness of the tooltip scroll animation. 0.0 is instant, 1.0 is very smooth.
+	scroll_smoothness: 0.25,
+	// Amount of lines scrolled per mouse wheel scroll.
+	lines_per_scroll: 1.5,
+	// If the item's title gets automatically centered in the tooltip.
+	title_centering: true,
+	// The tooltip title's scroll speed when Title Overflow mode is set to 'SCROLL', higher is faster.
+	title_scroll_speed: 25.0,
+	// The elapsed time in ms while the scrolling motion is paused when Title Overflow mode is set to 'SCROLL'.
+	title_scroll_pause_time_ms: 2000,
+	// If compatibility with Obscure Tooltips is enabled.
+	obscure_compat: true,
+	// If compatibility with Tooltip Overhaul is enabled.
+	tooltip_overhaul_compat: true
+}

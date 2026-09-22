@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.apacoba9_sup",
+  "display": "daffas_arsenal:apacoba9_sup_display",
+  "data": "daffas_arsenal:apacoba9_sup_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.apacoba9_sup.desc",
+  "sort": 200
+}

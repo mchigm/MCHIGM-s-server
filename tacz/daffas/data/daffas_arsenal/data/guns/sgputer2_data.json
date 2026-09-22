@@ -1,0 +1,126 @@
+{
+  "ammo": "tacz:12g",
+  "ammo_amount": 6,
+  "extended_mag_ammo_amount": [
+    7,
+    8,
+    9
+  ],
+  "bolt": "manual_action",
+  "rpm": 500,
+  "bullet": {
+    "life": 0.6,
+    "bullet_amount": 8,
+    "damage": 37,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.15,
+      "head_shot_multiplier": 1.25,
+      "damage_adjust": [
+        {"distance": 10, "damage": 37},
+        {"distance": 20, "damage": 29},
+        {"distance": 30, "damage": 21},
+        {"distance": 40, "damage": 12},
+        {"distance": 50, "damage": 2},
+        {"distance": 60, "damage": 1},
+        {"distance": "infinite", "damage": 1}
+      ]
+    },
+    "speed": 120,
+    "gravity": 0.30,
+    "knockback": 0.4,
+    "friction": 0.05,
+    "ignite": false,
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 50,
+      "radius": 3,
+      "knockback": false,
+      "delay": 5
+    }
+  },
+  "reload": {
+    "type": "magazine",
+
+    "feed": {
+      "empty": 2.13,
+      "tactical": 0.67
+    },
+    "cooldown": {
+      "empty": 0.67,
+      "tactical": 0.23
+    }
+  },
+  "draw_time": 0.9,
+  "put_away_time": 0.6,
+
+  "aim_time": 0.15,
+  "sprint_time": 0.13,
+  "weight": 3.1,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": 0
+  },
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [1, 1]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.65, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0.0, "value": [-1.0, 1.0]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.65, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 8.65,
+    "move": 8.7,
+    "sneak": 8.65,
+    "lie": 8.5,
+    "aim": 8.5
+  },
+  "melee": {
+
+    "distance": 0,
+
+
+    "cooldown": 0,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 1.5,
+
+      "range_angle": 40,
+
+      "cooldown": 1,
+
+      "damage": 2,
+
+      "knockback": 0.5,
+
+      "prep": 0.2
+    }
+  },
+  "script": "tacz:m870_gun_logic",
+  "script_param": {
+    "bolt_time": 0.70,
+    "bolt_feed_time": 0.3,
+    "intro_empty": 2.2604,
+    "intro": 2.25,
+    "loop": 0.6979,
+    "ending": 0.17,
+    "intro_empty_feed": 1.35,
+    "loop_feed": 0.3625
+  },
+  "allow_attachment_types": [
+    "extended_mag"
+  ]
+}

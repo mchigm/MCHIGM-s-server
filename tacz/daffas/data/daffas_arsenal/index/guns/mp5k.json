@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.mp5k",
+  "display": "daffas_arsenal:mp5k_display",
+  "data": "daffas_arsenal:mp5k_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.mp5k.desc",
+  "sort": 200
+}

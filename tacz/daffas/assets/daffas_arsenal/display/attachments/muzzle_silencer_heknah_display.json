@@ -1,0 +1,9 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/gandeng_sia",
+  "model": "daffas_arsenal:attachment/muzzle_silencer_heknah_geo",
+  "texture": "daffas_arsenal:gun/uv/hk416",
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

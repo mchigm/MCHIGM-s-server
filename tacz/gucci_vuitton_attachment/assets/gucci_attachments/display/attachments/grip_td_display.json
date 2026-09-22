@@ -1,0 +1,9 @@
+{
+  "slot": "gucci_attachments:attachment/slot/grip_td",
+  "model": "gucci_attachments:attachment/grip_td_geo",
+  "texture": "gucci_attachments:attachment/uv/grip_td",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

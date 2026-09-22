@@ -1,0 +1,87 @@
+{
+  "ammo": "daffas_arsenal:500",
+  "ammo_amount": 5,
+  "extended_mag_ammo_amount": [
+    6,
+    7,
+    8
+  ],
+  "bolt": "open_bolt",
+  "rpm": 50,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 50,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.40,
+      "head_shot_multiplier": 2,
+      "damage_adjust": [
+        {"distance": 10, "damage": 50},
+        {"distance": 20, "damage": 45},
+        {"distance": 30, "damage": 40},
+        {"distance": 40, "damage": 35},
+        {"distance": 50, "damage": 30},
+        {"distance": 60, "damage": 25},
+        {"distance": 70, "damage": 20},
+        {"distance": 80, "damage": 15},
+        {"distance": 90, "damage": 10},
+        {"distance": 100, "damage": 5},
+        {"distance": "infinite", "damage": 1}
+      ]
+    },
+    "speed": 120,
+    "gravity": 0.15,
+    "knockback": 0.2,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 1
+  },
+  "weight": 1.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.4,
+    "reload": -0.12
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 3.4583,
+      "tactical": 4.7917
+    },
+    "cooldown": {
+      "empty": 4.7813,
+      "tactical": 5.375
+    }
+  },
+  "draw_time": 0.8,
+  "put_away_time": 1,
+  "aim_time": 0.2,
+  "sprint_time": 0.2,
+  "bolt_action_time": 1.1,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0.05, "value": [2.75, 2.75]},
+      {"time": 0.6, "value": [0.1, 0.1]},
+      {"time": 0.9, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0.05, "value": [-2.6, 2.1]},
+      {"time": 0.6, "value": [0.1, 0.1]},
+      {"time": 0.9, "value": [0, 0]}
+    ]
+  },
+
+  "inaccuracy": {
+    "stand": 6,
+    "move": 8,
+    "sneak": 5,
+    "lie": 3,
+    "aim": 0.5
+  },
+  "allow_attachment_types": [
+  ]
+}

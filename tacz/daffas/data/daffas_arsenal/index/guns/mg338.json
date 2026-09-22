@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.mg338",
+  "display": "daffas_arsenal:mg338_display",
+  "data": "daffas_arsenal:mg338_data",
+  "type": "mg",
+  "tooltip": "daffas_arsenal.gun.mg338.desc",
+  "sort": 200
+}

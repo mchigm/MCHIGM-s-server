@@ -1,0 +1,28 @@
+{
+  "materials": [
+
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 150
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "daffas_arsenal:nova6"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

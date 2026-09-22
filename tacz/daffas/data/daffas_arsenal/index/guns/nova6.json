@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.nova6",
+  "display": "daffas_arsenal:nova6_display",
+  "data": "daffas_arsenal:nova6_data",
+  "type": "sniper",
+  "tooltip": "daffas_arsenal.gun.nova6.desc",
+  "sort": 200
+}

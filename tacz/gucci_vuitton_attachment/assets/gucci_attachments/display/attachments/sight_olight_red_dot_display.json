@@ -1,0 +1,14 @@
+{
+  "slot": "gucci_attachments:attachment/slot/sight_olight_red_dot",
+  "model": "gucci_attachments:attachment/sight_olight_red_dot_geo",
+  "texture": "gucci_attachments:attachment/uv/sight_olight_red_dot",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  },
+  "zoom": [
+      1.25
+    ],
+  "sight": true,
+  "fov": 70.0
+}

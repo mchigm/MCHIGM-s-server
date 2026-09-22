@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+{
+
+  "model": "daffas_arsenal:ammo/daffas_acp45",
+  "texture": "daffas_arsenal:ammo/uv/daffas_45",
+  "slot": "daffas_arsenal:ammo/slot/daffas_45",
+  "shell": {
+    "model": "daffas_arsenal:shell/daffas_acp45_shell",
+    "texture": "daffas_arsenal:ammo/uv/daffas_45"
+  },
+  "tracer_color": "#000000",
+
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "ground": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "fixed": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

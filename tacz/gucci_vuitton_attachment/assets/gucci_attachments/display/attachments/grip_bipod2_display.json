@@ -1,0 +1,9 @@
+{
+  "slot": "gucci_attachments:attachment/slot/grip_bipod2",
+  "model": "gucci_attachments:attachment/grip_bipod2_geo",
+  "texture": "gucci_attachments:attachment/uv/grip_bipod2",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

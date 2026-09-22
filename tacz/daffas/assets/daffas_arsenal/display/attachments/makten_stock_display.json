@@ -1,0 +1,10 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/makten_stock",
+  "model": "daffas_arsenal:attachment/makten_stock_geo",
+  "texture": "daffas_arsenal:gun/uv/makten_single",
+
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

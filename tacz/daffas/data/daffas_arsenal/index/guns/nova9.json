@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.nova9",
+  "display": "daffas_arsenal:nova9_display",
+  "data": "daffas_arsenal:nova9_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.nova9.desc",
+  "sort": 200
+}

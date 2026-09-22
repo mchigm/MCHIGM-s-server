@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 15
+    }
+
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "daffas_arsenal:mgup2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

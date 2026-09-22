@@ -1,0 +1,23 @@
+
+[toggles]
+	#Enable or disable thirst.
+	enable_thirst = true
+	#Enable or disable hand drinking.
+	enable_hand_drinking = false
+	#Remove source blocks when filling the canteen.
+	remove_source_blocks = false
+	#Prevent sprinting when thirsty.
+	thirst_prevent_sprint = true
+	#Prevent health regeneration when thirsty.
+	thirst_prevent_health_regen = true
+
+[general]
+	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
+	exhaustion_threshold = 8.0
+
+[drink_options]
+	#Thirst restored from drinking with hands.
+	hand_drinking_thirst = 1
+	#Hydration restored from drinking with hands.
+	hand_drinking_hydration = 0.1
+

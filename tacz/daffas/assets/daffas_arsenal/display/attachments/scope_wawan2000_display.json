@@ -1,0 +1,27 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/scope_wawan2000",
+  "model": "daffas_arsenal:attachment/scope_wawan2000_geo",
+  "texture": "daffas_arsenal:gun/uv/wawan2000",
+  "lod": {
+    "model": "daffas_arsenal:attachment/scope_wawan2000_geo",
+    "texture": "daffas_arsenal:gun/uv/wawan2000"
+  },
+  "zoom": [
+    4.0,
+    8.0
+  ],
+  "views": [
+    1,
+    1
+  ],
+  "views_fov": [
+    22.5,
+    8.0
+  ],
+  "scope": true,
+  "fov": 30.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

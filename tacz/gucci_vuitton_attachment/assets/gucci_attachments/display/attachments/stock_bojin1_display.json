@@ -1,0 +1,10 @@
+{
+  "slot": "gucci_attachments:attachment/slot/stock_bojin1",
+  "model": "gucci_attachments:attachment/stock_bojin1_geo",
+  "texture": "gucci_attachments:attachment/uv/stock_bojin1",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

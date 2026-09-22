@@ -518,7 +518,7 @@
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
 	Emotes = true
@@ -586,8 +586,8 @@
 		"Enable Jei Hints" = true
 
 	[tweaks.double_door_opening]
-		"Enable Doors" = true
-		"Enable Fence Gates" = true
+		"Enable Doors" = false
+		"Enable Fence Gates" = false
 		#This feature disables itself if any of the following mods are loaded:
 		# - utilitix
 		#This is done to prevent content overlap.

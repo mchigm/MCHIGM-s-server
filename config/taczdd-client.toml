@@ -1,0 +1,39 @@
+
+#TaCZ: DamageDisplay - Configuration
+[general]
+	#Global enable switch for TaCZ damage display Mod
+	isEnableTaCZDamageDisplay = true
+	#Whether to replace the original damage display of TESMod
+	#After enabling, the TES built-in damage display particle effect will not take effect on TaCZ's firearm weapons.
+	isReplaceOriginalTESDamageDisplay = false
+	#Whether to display particles of normal firearm damage (non-headshot damage)
+	isNormalDamageDisplay = false
+	#Whether to display the number of normal firearm damage (non-headshot damage)
+	isNormalDamageNumberDisplay = true
+	#Whether to use bold style for normal damage text
+	isNormalDamageTextBoldStyle = false
+	#Lifespan of normal damage display particles (in ticks)
+	#Range: > 1
+	NormalDamageParticleLifespan = 20
+	#Color of normal damage display particles (in hexadecimal format, e.g., 'FFFFFF' for white)
+	NormalDamageParticleColor = "FFFFFF"
+	#Prefix for normal damage text
+	NormalDamageTextPrefix = ""
+	#Suffix for normal damage text
+	NormalDamageTextSuffix = ""
+	#Whether to display particles of headshot weapon damage
+	isHeadshotDamageDisplay = true
+	#Whether to display the number of headshot weapon damage
+	isHeadshotDamageNumberDisplay = false
+	#Whether to use bold style for headshot damage text
+	isHeadshotDamageTextBoldStyle = true
+	#Lifespan of headshot damage display particles (in ticks)
+	#Range: > 1
+	HeadshotDamageParticleLifespan = 20
+	#Color of headshot damage display particles (in hexadecimal format, e.g., 'FFFF00' for yellow)
+	HeadshotDamageParticleColor = "FFFF00"
+	#Prefix for headshot damage text
+	HeadshotDamageTextPrefix = "💥"
+	#Suffix for headshot damage text
+	HeadshotDamageTextSuffix = "Critical!!"
+

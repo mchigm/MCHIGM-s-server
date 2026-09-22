@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.reflect_digi_daw.name",
+  "display": "daffas_arsenal:reflect_digi_daw_display",
+  "data": "daffas_arsenal:reflect_digi_daw_data",
+  "type": "scope",
+  "sort": 100
+}

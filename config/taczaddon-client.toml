@@ -1,0 +1,35 @@
+
+["Melee Setting"]
+	#列表里的枪械会作为近战武器使用，开火将被替换为近战攻击。
+	#可以通过 F3+H 查看物品的 GunId 标签。
+	MeleeWeaponList = ["tacz:type_82", "tacz:type_83"]
+
+["Gun Setting"]
+	#允许在换弹过程中按下开火键。
+	#仅在枪械当前确实存在可发射弹药且其它射击冷却允许时取消换弹。
+	#实际射击仍由 TaCZ 客户端和服务端正常校验。
+	enableShootWhileReloading = true
+
+["GunSmithTable Presentation"]
+	#枪械工作台制作成功后显示物品提示。
+	enableCraftToast = true
+
+["Attachment Setting"]
+	#配件高级提示中最多显示的适用枪械数量。
+	#Range: 1 ~ 256
+	allowGunDisplayCount = 16
+	#配件提示中显示详细属性变化。
+	enableAttachmentDetail = true
+
+["Other Setting"]
+	#非第一人称视角瞄准时自动切换到第一人称，
+	#取消瞄准后恢复原视角。
+	enableBetterAimCamera = true
+	#切枪时跳过收枪后摇。
+	enableFastSwapGun = true
+	#悬停物品时高亮显示相关物品。
+	enableShowItemRelation = true
+	#是否在 Sophisticated Backpacks 和 Sophisticated Storage 界面中高亮相关物品。
+	#需要同时启用 enableShowItemRelation。
+	enableShowItemRelationInSophisticatedStorage = true
+

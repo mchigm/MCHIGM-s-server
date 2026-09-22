@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.mgup1.name",
+  "display": "daffas_arsenal:mgup1_display",
+  "data": "daffas_arsenal:mgup1_data",
+  "tooltip": "daffas_arsenal.attachment.mgup1.desc",
+  "type": "muzzle"
+}

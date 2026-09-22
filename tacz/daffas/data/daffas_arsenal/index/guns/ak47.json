@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.ak47",
+  "display": "daffas_arsenal:ak47_display",
+  "data": "daffas_arsenal:ak47_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.ak47.desc",
+  "sort": 200
+}

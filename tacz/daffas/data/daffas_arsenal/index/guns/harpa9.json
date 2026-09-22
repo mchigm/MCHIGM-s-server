@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.harpa9",
+  "display": "daffas_arsenal:harpa9_display",
+  "data": "daffas_arsenal:harpa9_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.harpa9.desc",
+  "sort": 200
+}

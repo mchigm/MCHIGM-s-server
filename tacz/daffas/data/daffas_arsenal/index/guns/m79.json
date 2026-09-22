@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.m79",
+  "display": "daffas_arsenal:m79_display",
+  "data": "daffas_arsenal:m79_data",
+  "tooltip": "daffas_arsenal.gun.m79.desc",
+  "sort": 200,
+  "type": "rpg"
+}

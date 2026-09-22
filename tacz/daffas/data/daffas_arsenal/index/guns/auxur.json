@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.auxur",
+  "display": "daffas_arsenal:auxur_display",
+  "data": "daffas_arsenal:auxur_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.auxur.desc",
+  "sort": 200
+}

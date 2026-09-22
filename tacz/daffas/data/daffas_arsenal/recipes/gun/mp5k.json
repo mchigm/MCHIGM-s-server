@@ -1,0 +1,31 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 51
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 5
+    }
+  ],
+
+  "result": {
+    "type": "gun",
+    "id": "daffas_arsenal:mp5k",
+    "attachments": {
+      "extended_mag": "tacz:light_extended_mag_1"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

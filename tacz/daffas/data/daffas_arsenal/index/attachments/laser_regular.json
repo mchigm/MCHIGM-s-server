@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.laser_regular.name",
+  "display": "daffas_arsenal:laser_regular_display",
+  "data": "daffas_arsenal:laser_regular_data",
+  "type": "laser",
+  "sort": 10
+}

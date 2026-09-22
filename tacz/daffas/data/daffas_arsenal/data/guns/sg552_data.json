@@ -1,0 +1,119 @@
+{
+  "ammo": "tacz:556x45",
+  "ammo_amount": 15,
+  "extended_mag_ammo_amount": [
+    20,
+    30,
+    40
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 750,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 10.0,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.35,
+      "head_shot_multiplier": 1.75,
+      "damage_adjust": [
+        {"distance": 10, "damage": 9.0},
+        {"distance": 30, "damage": 8.6},
+        {"distance": 50, "damage": 8.2},
+        {"distance": 70, "damage": 7.8},
+        {"distance": 90, "damage": 7.4},
+        {"distance": 110, "damage": 7.0},
+        {"distance": 130, "damage": 6.6},
+        {"distance": 150, "damage": 6.2},
+        {"distance": 170, "damage": 5.2},
+        {"distance": "infinite", "damage": 4}
+      ]
+    },
+    "speed": 299,
+    "gravity": 0.05,
+    "knockback": 0.075,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 1
+  },
+  "weight": 4.1,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": -0.2
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.51,
+      "tactical": 2.13
+    },
+    "cooldown": {
+      "empty": 3.0833,
+      "tactical": 2.9167
+    }
+  },
+  "draw_time": 0.9583,
+  "put_away_time": 0.7292,
+  "aim_time": 0.2,
+  "sprint_time": 0.2,
+  "fire_mode": [
+    "auto",
+    "burst",
+    "semi"
+  ],
+  "burst_data": {
+    "continuous_shoot": false,
+    "count": 3,
+    "bpm": 1000,
+    "min_interval": 0.6
+  },
+  "recoil": {
+    "pitch": [
+      {"time": 0.05, "value": [0.75, 1.25]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.5, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0.05, "value": [-1.5, 1.25]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "melee": {
+
+    "distance": 0,
+
+
+    "cooldown": 0,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 2,
+
+      "range_angle": 40,
+
+      "cooldown": 1,
+
+      "damage": 1,
+
+      "knockback": 0.5,
+
+      "prep": 0.1
+    }
+  },
+  "inaccuracy": {
+    "stand": 6,
+    "move": 8,
+    "sneak": 4,
+    "lie": 2,
+    "aim": 0.1
+  },
+  "allow_attachment_types": [
+    "scope",
+    "extended_mag",
+    "muzzle"
+  ]
+}

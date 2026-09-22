@@ -1,0 +1,29 @@
+{
+  "model": "daffas_arsenal:ammo/water",
+  "texture": "daffas_arsenal:gun/uv/southeastmomssecretweapon",
+  "slot": "daffas_arsenal:ammo/slot/water",
+  "shell": {
+    "model": "tacz:shell/9mm",
+    "texture": "tacz:shell/9mm"
+  },
+  "tracer_color": "#0088ff",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}

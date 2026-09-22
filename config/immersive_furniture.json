@@ -1,0 +1,15 @@
+{
+  "favorites": [],
+  "immersiveLibraryUrl": "https://mca.conczin.net",
+  "maximumInteractDistance": 128,
+  "lowMemoryModeThreshold": 16,
+  "saveAsHash": true,
+  "costMultiplier": 1.0,
+  "requiredCraftingPermissionLevel": 0,
+  "autosaveInterval": 60,
+  "maxMipLevel": 2,
+  "bakedAtlasSize": 1024,
+  "disableAtlasRefreshes": false,
+  "version": 2,
+  "name": "immersive_furniture"
+}

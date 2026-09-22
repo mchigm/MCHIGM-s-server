@@ -1,0 +1,23 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/scope_auxur",
+  "model": "daffas_arsenal:attachment/scope_auxur_geo",
+  "texture": "daffas_arsenal:gun/uv/auxur",
+  "lod": {
+    "model": "daffas_arsenal:attachment/scope_auxur",
+    "texture": "daffas_arsenal:gun/uv/auxur"
+  },
+  "zoom": [
+    2.0
+  ],
+  "views": [
+    1
+  ],
+  "views_fov": [
+    50.0
+  ],
+  "scope": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

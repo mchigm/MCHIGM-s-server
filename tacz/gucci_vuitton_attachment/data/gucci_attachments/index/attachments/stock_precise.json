@@ -1,0 +1,6 @@
+{
+  "name": "gucci_attachments.attachment.stock_precise",
+  "display": "gucci_attachments:stock_precise_display",
+  "data": "gucci_attachments:stock_precise_data",
+  "type": "stock"
+}

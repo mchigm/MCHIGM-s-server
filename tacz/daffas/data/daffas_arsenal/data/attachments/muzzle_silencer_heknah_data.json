@@ -1,0 +1,22 @@
+{
+  "weight": 0.40,
+  "ads": {
+
+    "addend": 0.05
+  },
+  "inaccuracy": {
+    "multiplier": 1.2
+  },
+  "effective_range": {
+    "multiplier": 1.75
+  },
+  "rpm": {
+    "multiplier":0.90
+  },
+  "silence": {
+
+    "distance_addend": -23,
+
+    "use_silence_sound": true
+  }
+}

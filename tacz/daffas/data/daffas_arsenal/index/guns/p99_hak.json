@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.p99_hak",
+  "display": "daffas_arsenal:p99_hak_display",
+  "data": "daffas_arsenal:p99_hak_data",
+  "tooltip": "daffas_arsenal.gun.p99_hak.desc",
+  "type": "pistol",
+  "sort": 200
+}

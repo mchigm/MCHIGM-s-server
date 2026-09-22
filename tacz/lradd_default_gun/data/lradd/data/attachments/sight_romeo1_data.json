@@ -1,0 +1,12 @@
+{
+  "weight": 0.4,
+  "damage": {
+    "percent": 5.0
+  },
+  "armor_ignore":{
+    "addend": 1.0
+  },
+  "head_shot":{
+    "percent": 4.0
+  }
+}

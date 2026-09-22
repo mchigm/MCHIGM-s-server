@@ -1,6 +1,9 @@
 {
   "version": 1,
   "entries": {
-    "com.tacz.guns.GunMod|/assets/tacz/custom/tacz_default_gun|tacz_default_gun": "eb54ee63a35de3ca2313064792c8bbf4"
+    "com.tacz.guns.GunMod|/assets/tacz/custom/tacz_default_gun|tacz_default_gun": "eb54ee63a35de3ca2313064792c8bbf4",
+    "me.xjqsh.gucci.AttachmentMod|/assets/guccivuitton/custom/gucci_vuitton_attachment|gucci_vuitton_attachment": "a78e2b71859d16faef2cb7224c039720",
+    "com.daffas_arsenal.DaffasArsenalGuns|/addon/daffas|daffas": "8f76cc03075f0b8a496c8324755a68ba",
+    "me.xjqsh.lradd.LesRaisinsAddon|/assets/lradd/custom/lradd_default_gun|lradd_default_gun": "fae24b8b86531de088630788b3c64487"
   }
 }

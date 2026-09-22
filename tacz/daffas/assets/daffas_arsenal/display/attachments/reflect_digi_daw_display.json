@@ -1,0 +1,28 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/reflect_digi_daw",
+  "model": "daffas_arsenal:attachment/reflect_digi_daw_geo",
+  "texture": "daffas_arsenal:attachment/uv/reflect_digi_daw",
+  "lod": {
+    "model": "daffas_arsenal:attachment/reflect_digi_daw_geo",
+    "texture": "daffas_arsenal:attachment/uv/reflect_digi_daw"
+  },
+
+  "zoom": [
+    1.5,
+    1.5
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    55.0,
+    80.0
+  ],
+  "scope": false,
+  "sight": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

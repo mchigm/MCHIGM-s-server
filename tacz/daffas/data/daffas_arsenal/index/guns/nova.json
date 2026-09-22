@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.nova",
+  "display": "daffas_arsenal:nova_display",
+  "data": "daffas_arsenal:nova_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.nova.desc",
+  "sort": 200
+}

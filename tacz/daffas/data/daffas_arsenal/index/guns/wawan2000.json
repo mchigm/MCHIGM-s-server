@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.wawan2000",
+  "display": "daffas_arsenal:wawan2000_display",
+  "data": "daffas_arsenal:wawan2000_data",
+  "type": "sniper",
+  "tooltip": "daffas_arsenal.gun.wawan2000.desc",
+  "sort": 200
+}

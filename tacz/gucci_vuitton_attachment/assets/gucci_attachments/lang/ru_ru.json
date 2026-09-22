@@ -1,0 +1,17 @@
+{
+  "pack.gucci_attachments.name": "§lПак обвесов \"Gucci\"",
+  "pack.gucci_attachments.desc": "Содержит потрясающие дополнения к оружию.\nПереводчики: SfortzaPhantom, DeepVoid",
+  "gucci_attachments.attachment.grip_rk2": "Рукоятка РК-2",
+  "gucci_attachments.attachment.grip_td": "Рукоятка TD",
+  "gucci_attachments.attachment.grip_cqr": "Рукоятка CQR",
+  "gucci_attachments.attachment.grip_bcm": "Рукоятка BCM",
+  "gucci_attachments.attachment.grip_phase": "Рукоятка \"Phase-III\"",
+  "gucci_attachments.attachment.grip_flat": "Фиксированные сошки",
+  "gucci_attachments.attachment.grip_rk1_b25u": "РК-1 Б-25У",
+  "gucci_attachments.attachment.grip_rk6": "Рукоятка РК-6",
+  "gucci_attachments.attachment.muzzle_pws": "Компенсатор PWS",
+  "gucci_attachments.attachment.muzzle_kraken": "Дульный тормоз \"Kraken\"",
+  "gucci_attachments.attachment.stock_precise": "Приклад \"Precision-5\"",
+  "gucci_attachments.attachment.sight_hco": "Прицел HCO",
+  "gucci_attachments.attachment.sight_olight_red_dot": "Коллиматорный прицел \"Olight\""
+}

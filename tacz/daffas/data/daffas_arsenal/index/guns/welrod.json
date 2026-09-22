@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.welrod",
+  "display": "daffas_arsenal:welrod_display",
+  "data": "daffas_arsenal:welrod_data",
+  "tooltip": "daffas_arsenal.gun.welrod.desc",
+  "type": "pistol",
+  "sort": 200
+}

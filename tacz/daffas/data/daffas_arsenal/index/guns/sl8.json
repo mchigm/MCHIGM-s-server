@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.sl8",
+  "display": "daffas_arsenal:sl8_display",
+  "data": "daffas_arsenal:sl8_data",
+  "type": "sniper",
+  "tooltip": "daffas_arsenal.gun.sl8.desc",
+  "sort": 200
+}

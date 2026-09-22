@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+{
+
+  "model": "daffas_arsenal:ammo/daffas_flechette",
+  "texture": "daffas_arsenal:ammo/uv/daffas_flechette",
+  "slot": "daffas_arsenal:ammo/slot/daffas_flechette",
+  "shell": {
+    "model": "daffas_arsenal:shell/daffas_flechette",
+    "texture": "daffas_arsenal:ammo/uv/daffas_flechette"
+  },
+  "tracer_color": "#000000",
+
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "ground": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "fixed": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

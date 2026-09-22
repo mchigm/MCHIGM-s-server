@@ -1,0 +1,131 @@
+{
+  "ammo": "tacz:12g",
+  "ammo_amount": 6,
+  "extended_mag_ammo_amount": [
+    6,
+    6,
+    6
+  ],
+  "bolt": "manual_action",
+  "rpm": 250,
+  "bullet": {
+    "life": 0.6,
+    "bullet_amount": 8,
+    "damage": 39,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.30,
+      "head_shot_multiplier": 1.4,
+      "damage_adjust": [
+        {"distance": 10, "damage": 39},
+        {"distance": 20, "damage": 35},
+        {"distance": 30, "damage": 29},
+        {"distance": 40, "damage": 23},
+        {"distance": 50, "damage": 15},
+        {"distance": 60, "damage": 5},
+        {"distance": "infinite", "damage": 1}
+      ]
+    },
+    "speed": 150,
+    "gravity": 0.20,
+    "knockback": 0.3,
+    "friction": 0.05,
+    "ignite": false,
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 50,
+      "radius": 3,
+      "knockback": false,
+      "delay": 5
+    }
+  },
+  "reload": {
+    "type": "magazine",
+
+    "feed": {
+      "empty": 2.13,
+      "tactical": 0.67
+    },
+    "cooldown": {
+      "empty": 0.67,
+      "tactical": 0.23
+    }
+  },
+  "draw_time": 1.05,
+  "put_away_time": 0.6,
+
+  "aim_time": 0.15,
+  "sprint_time": 0.13,
+  "weight": 3.6,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": 0
+  },
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [5.5, 5.5]},
+      {"time": 0.1, "value": [4.5, 4.5]},
+      {"time": 0.13, "value": [5, 5]},
+      {"time": 0.4, "value": [-0.5, -0.5]},
+      {"time": 0.53, "value": [0.25, 0.25]},
+      {"time": 0.65, "value": [0, 0]},
+      {"time": 0.7, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-1.75, -1.75]},
+      {"time": 0.1, "value": [-1.5, -1.5]},
+      {"time": 0.5, "value": [0.15, 0.15]},
+      {"time": 0.65, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 5.65,
+    "move": 5.7,
+    "sneak": 5.65,
+    "lie": 5.5,
+    "aim": 5.5
+  },
+  "melee": {
+
+    "distance": 0,
+
+
+    "cooldown": 0,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 2,
+
+      "range_angle": 40,
+
+      "cooldown": 1,
+
+      "damage": 2,
+
+      "knockback": 0.5,
+
+      "prep": 0.2
+    }
+  },
+  "script": "tacz:m870_gun_logic",
+  "script_param": {
+    "bolt_time": 0.85,
+    "bolt_feed_time": 0.3,
+    "intro_empty": 2.5729,
+    "intro": 2.5729,
+    "loop": 0.8125,
+    "ending": 0.17,
+    "intro_empty_feed": 1.35,
+    "loop_feed": 0.4125
+  },
+  "allow_attachment_types": [
+    "extended_mag"
+  ]
+}

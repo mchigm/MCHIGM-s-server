@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.scope_g36.name",
+  "display": "daffas_arsenal:scope_g36_display",
+  "hidden": true,
+  "data": "daffas_arsenal:scope_g36_data",
+  "type": "scope"
+}

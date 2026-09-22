@@ -1,0 +1,19 @@
+{
+  "inaccuracy": {
+    "multiplier": 1.25
+  },
+
+  "recoil": {
+    "pitch": {
+      "multiplier": 1.5
+    },
+    "yaw": {
+      "multiplier": 1.5
+    }
+  },
+
+
+  "rpm": {
+    "multiplier":1.1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.pego762",
+  "display": "daffas_arsenal:pego762_display",
+  "data": "daffas_arsenal:pego762_data",
+  "type": "mg",
+  "tooltip": "daffas_arsenal.gun.pego762.desc",
+  "sort": 200
+}

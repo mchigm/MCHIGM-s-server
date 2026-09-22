@@ -1,0 +1,14 @@
+{
+  "weight": 0.45,
+  "damage": {
+    "percent": 3.0
+  },
+  "recoil": {
+    "yaw": {
+      "multiplier": 0.01
+    },
+    "pitch": {
+      "multiplier": 0.01
+    }
+  }
+}

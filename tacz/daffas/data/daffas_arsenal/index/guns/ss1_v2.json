@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.ss1_v2",
+  "display": "daffas_arsenal:ss1_v2_display",
+  "data": "daffas_arsenal:ss1_v2_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.ss1_v2.desc",
+  "sort": 200
+}

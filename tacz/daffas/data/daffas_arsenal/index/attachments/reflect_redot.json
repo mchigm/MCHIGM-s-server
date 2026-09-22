@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.reflect_redot.name",
+  "display": "daffas_arsenal:reflect_redot_display",
+  "data": "daffas_arsenal:reflect_redot_data",
+  "type": "scope",
+  "sort": 100
+}

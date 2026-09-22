@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 140
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "daffas_arsenal:migraine3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

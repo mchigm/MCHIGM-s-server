@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.p99_nohak",
+  "display": "daffas_arsenal:p99_nohak_display",
+  "data": "daffas_arsenal:p99_nohak_data",
+  "tooltip": "daffas_arsenal.gun.p99_nohak.desc",
+  "type": "pistol",
+  "sort": 200
+}

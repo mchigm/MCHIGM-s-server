@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -63,10 +60,6 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
-  },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -79,16 +72,6 @@
     "registry_name": "ADVANCED_TOOLTIPS",
     "mod_name": false
   },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
-  },
-  "waystones": {
-    "waystone": true
-  },
   "superbwarfare": {
     "dps_generator": true,
     "vehicle_deployer": true,
@@ -98,6 +81,45 @@
   },
   "balm": {
     "jade": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "dynamictrees": {
+    "rooty_water": true,
+    "pod": true,
+    "fruit": true,
+    "rooty": true,
+    "branch": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "securitycraft": {
     "showowner": true,

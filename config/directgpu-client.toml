@@ -1,0 +1,7 @@
+
+#DirectGPU Client Configuration
+[client]
+	#Enable or disable all DirectGPU logging output
+	#Set to false to completely silence all DirectGPU logs
+	enableLogging = false
+

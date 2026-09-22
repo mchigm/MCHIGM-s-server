@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.aksopmod",
+  "display": "daffas_arsenal:aksopmod_display",
+  "data": "daffas_arsenal:aksopmod_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.aksopmod.desc",
+  "sort": 200
+}

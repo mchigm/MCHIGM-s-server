@@ -1,0 +1,29 @@
+{
+  "model": "daffas_arsenal:ammo/battery",
+  "texture": "daffas_arsenal:ammo/uv/battery",
+  "slot": "daffas_arsenal:ammo/slot/elektrikal",
+  "shell": {
+    "model": "tacz:shell/9mm",
+    "texture": "tacz:shell/9mm"
+  },
+  "tracer_color": "#00F2FF",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

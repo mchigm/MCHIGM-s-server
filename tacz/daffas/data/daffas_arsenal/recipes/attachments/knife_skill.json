@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:sugar"
+      },
+      "count": 256
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "daffas_arsenal:knife_skill"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

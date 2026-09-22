@@ -1,0 +1,58 @@
+{
+  "model": "daffas_arsenal:gun/p99_nohak_geo",
+  "texture": "daffas_arsenal:gun/uv/p99_hak",
+  "lod": {
+    "model": "daffas_arsenal:gun/lod/p99_haker_geo",
+    "texture": "daffas_arsenal:gun/uv/p99_hak"
+  },
+  "hud": "daffas_arsenal:gun/hud/p99_nohak",
+  "slot": "daffas_arsenal:gun/slot/p99_nohak",
+  "animation": "daffas_arsenal:p99_nohak",
+  "use_default_animation": "pistol",
+  "default_animation": "daffas_arsenal:daffas_default",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "state_machine": "daffas_arsenal:p99_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.59, 0.59, 0.59],
+      "ground": [0.59, 0.59, 0.59],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "shell": {
+    "initial_velocity": [8.0, 5.0, -0.5],
+    "random_velocity": [2.5, 1.5, 0.25],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [360, -720, 90],
+    "living_time": 1.0
+  },
+  "muzzle_flash": {
+    "texture": "daffas_arsenal:flash/daffas_muzzle_flash_fire_old",
+    "scale": 1.5
+  },
+  "sounds": {
+    "shoot": "daffas_arsenal:p99/daffas_ppp",
+    "shoot_3p": "daffas_arsenal:p99/daffas_ppp",
+    "silence": "daffas_arsenal:supressor/daffas_smg",
+    "silence_3p": "daffas_arsenal:supressor/daffas_smg",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -1],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -1],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

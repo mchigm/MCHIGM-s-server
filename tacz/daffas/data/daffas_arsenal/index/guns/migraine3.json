@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.migraine3",
+  "display": "daffas_arsenal:migraine3_display",
+  "data": "daffas_arsenal:migraine3_data",
+  "type": "mg",
+  "tooltip": "daffas_arsenal.gun.migraine3.desc",
+  "sort": 200
+}

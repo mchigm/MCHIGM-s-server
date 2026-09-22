@@ -1,0 +1,124 @@
+{
+  "weight": 8.0,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.15,
+    "reload": -0.1
+  },
+  "ammo": "tacz:58x42",
+  "ammo_amount": 30,
+  "extended_mag_ammo_amount": [
+    35,
+    40,
+    45
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 600,
+  "bullet": {
+    "life": 0.5,
+    "bullet_amount": 1,
+    "damage": 9.5,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.35,
+      "head_shot_multiplier": 2.3,
+      "damage_adjust": [
+        {"distance": 15, "damage": 9.5},
+        {"distance": 25, "damage": 9.2},
+        {"distance": 35, "damage": 9.0},
+        {"distance": 55, "damage": 8.5},
+        {"distance": 80, "damage": 7.5},
+        {"distance": "infinite", "damage": 7.0}
+      ]
+    },
+    "speed": 400,
+    "gravity": 0.0245,
+    "knockback": 0,
+    "friction": 0.01,
+    "ignite": false,
+    "ignite_entity_time": 2,
+    "pierce": 1
+  },
+  // 换弹相关
+  "reload": {
+    // magazine 是弹匣供弹，manual 是手动供弹
+    "type": "magazine",
+    // 弹匣供弹换弹时长（秒），到达此时间点，服务端就更新枪内子弹数量
+    "feed": {
+      // 空仓换弹
+      "empty": 1.83,
+      // 战术换弹
+      "tactical": 1.83
+    },
+    // 弹匣供弹总时长（秒），到达此时间点，枪械才可以进行开火、检视等行为。
+    "cooldown": {
+      // 空仓换弹
+      "empty": 3.875,
+      // 战术换弹
+      "tactical": 2.9167
+    }
+  },
+  // 枪械抬起的动作时长，单位秒。
+  // 抬起动作完成后，枪械可以进行开火、检视等行为
+  "draw_time": 0.625,
+  // 收枪的动作时长，单位秒。
+  "put_away_time": 0.375,
+  "aim_time": 0.1,
+  "sprint_time": 0.25,
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [1.05, 1.05]},
+      {"time": 0.2, "value": [1.05, 1.05]},
+      {"time": 0.45, "value": [0.15, 0.15]},
+      {"time": 0.8, "value": [0.45, 0.45]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.35, 0.35]},
+      {"time": 0.15, "value": [0, 0.05]},
+      {"time": 0.4, "value": [-0.15, 0.15]}
+    ]
+  },
+  "hurt_bob_tweak_multiplier": 0.05,
+  "inaccuracy": {
+    "stand": 0.25,
+    "move": 1.45,
+    "sneak": 0.2,
+    "lie": 0.2,
+    "aim": 0.1
+  },
+  "melee": {
+    "distance": 0,
+    "cooldown": 0.5
+  },
+  "move_speed": {
+    "base": 0.9,
+    "aim": 0.72
+  },
+  // 开放的配件槽。未指定的槽位默认关闭。全部配件槽类型有:
+  // scope, stock, muzzle, grip, laser, extended_mag
+  "allow_attachment_types": [
+    "scope",
+    "stock",
+    "muzzle",
+    "grip",
+    "laser",
+    "extended_mag"
+  ],
+  // 专属的配件属性
+  "exclusive_attachments": {
+    // 配件 ID，后面的数据和配件的 data 部分结构完全一致
+    "tac:8x": {
+      "weight": 2.0,
+      "ads_addend": 0.04,
+      "inaccuracy_addend": -0.4,
+      "recoil_modifier": {
+        "pitch": -0.2,
+        "yaw": -0.1
+      }
+    }
+  }
+}

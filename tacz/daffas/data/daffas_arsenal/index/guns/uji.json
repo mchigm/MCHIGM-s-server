@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.uji",
+  "display": "daffas_arsenal:uji_display",
+  "data": "daffas_arsenal:uji_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.uji.desc",
+  "sort": 200
+}

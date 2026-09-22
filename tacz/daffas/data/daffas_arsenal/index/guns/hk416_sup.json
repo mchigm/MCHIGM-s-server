@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.hk416_sup",
+  "display": "daffas_arsenal:hk416_sup_display",
+  "data": "daffas_arsenal:hk416_sup_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.hk416_sup.desc",
+  "sort": 200
+}

@@ -1,0 +1,9 @@
+{
+  "slot": "gucci_attachments:attachment/slot/muzzle_s_z60",
+  "model": "gucci_attachments:attachment/muzzle_s_z60_geo",
+  "texture": "gucci_attachments:attachment/uv/muzzle_s_z60",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

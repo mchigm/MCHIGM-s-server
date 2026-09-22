@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 25
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "daffas_arsenal:welrod"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

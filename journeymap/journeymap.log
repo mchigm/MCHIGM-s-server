@@ -1,9 +1,9 @@
-[18:18:42] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[18:18:42] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[18:18:42] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
-[18:18:42] [Render thread/WARN] [JourneymapClient] Create is installed without Create Repair: Create's train-map overlay on the fullscreen map is disabled. Install the Create Repair mod to restore it.
-[18:18:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[18:18:43] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-6.0.5, built with forge 0.92.3+1.20.1
+[19:18:42] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[19:18:42] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[19:18:42] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
+[19:18:42] [Render thread/WARN] [JourneymapClient] Create is installed without Create Repair: Create's train-map overlay on the fullscreen map is disabled. Install the Create Repair mod to restore it.
+[19:18:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[19:18:42] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-6.0.5, built with forge 0.92.3+1.20.1
 forge: 47.4.20
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 MP: : offline : 
@@ -22,9 +22,9 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.5, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, playerMaxDistance=0, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showLabelBackground=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, autoHideLabelVertical=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, autoHideLabelVerticalAngle=10, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, playerMinDistance=10, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.5, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.5, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=6.0.5, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=Purist, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
-[18:18:43] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 801.77ms
-[18:18:58] [Render thread/INFO] [JourneymapClientForge] Journeymap PostInit
-[18:19:01] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[18:19:01] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 2686.41ms
-[18:19:01] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: Current: 6.0.5 New: 6.0.6 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8923662
-[18:20:50] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[19:18:42] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 387.36ms
+[19:18:57] [Render thread/INFO] [JourneymapClientForge] Journeymap PostInit
+[19:18:59] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[19:18:59] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 2102.3ms
+[19:19:00] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: Current: 6.0.5 New: 6.0.6 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8923662
+[21:44:05] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null

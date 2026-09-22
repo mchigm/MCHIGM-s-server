@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.gerosa",
+  "display": "daffas_arsenal:gerosa_display",
+  "data": "daffas_arsenal:gerosa_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.gerosa.desc",
+  "sort": 200
+}

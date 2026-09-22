@@ -1,0 +1,8 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/mgup1",
+
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

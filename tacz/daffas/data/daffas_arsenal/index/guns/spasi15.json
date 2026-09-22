@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.spasi15",
+  "display": "daffas_arsenal:spasi15_display",
+  "data": "daffas_arsenal:spasi15_data",
+  "type": "shotgun",
+  "tooltip": "daffas_arsenal.gun.spasi15.desc",
+  "sort": 200
+}

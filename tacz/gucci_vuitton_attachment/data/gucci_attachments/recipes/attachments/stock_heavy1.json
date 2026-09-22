@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "gucci_attachments:stock_heavy1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

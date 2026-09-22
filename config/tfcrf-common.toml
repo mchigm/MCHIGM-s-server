@@ -1,0 +1,4 @@
+#Global factor applied to the forest spread frequency. A higher value makes the forests spread much slower. Decrease the value if you want the forests to spread rapidly!
+#Range: 0.0 ~ 1.7976931348623157E308
+globalSpreadFactor = 1.0
+

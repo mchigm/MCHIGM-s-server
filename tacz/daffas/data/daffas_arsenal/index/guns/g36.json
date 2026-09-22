@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.g36",
+  "display": "daffas_arsenal:g36_display",
+  "data": "daffas_arsenal:g36_data",
+  "type": "mg",
+  "tooltip": "daffas_arsenal.gun.g36.desc",
+  "sort": 200
+}

@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.g36c_commando",
+  "display": "daffas_arsenal:g36c_commando_display",
+  "data": "daffas_arsenal:g36c_commando_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.g36c_commando.desc",
+  "sort": 200
+}

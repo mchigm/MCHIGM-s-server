@@ -1,0 +1,47 @@
+{
+  "model": "daffas_arsenal:gun/taurus2_geo",
+  "texture": "daffas_arsenal:gun/uv/taurus",
+  "lod": {
+    "model": "daffas_arsenal:gun/lod/taurusan2_geo",
+    "texture": "daffas_arsenal:gun/uv/taurus"
+  },
+  "hud": "daffas_arsenal:gun/hud/taurus2",
+  "slot": "daffas_arsenal:gun/slot/taurus2",
+  "default_animation": "daffas_arsenal:daffas_default",
+  "animation": "daffas_arsenal:taurus3",
+  "state_machine": "daffas_arsenal:taurus_state_machine",
+  "use_default_animation": "rifle",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.59, 0.59, 0.59],
+      "ground": [0.59, 0.59, 0.59],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "daffas_arsenal:flash/daffas_muzzle_flash_fire_old",
+    "scale": 3
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 70,
+  "sounds": {
+    "shoot": "daffas_arsenal:taurus/daffas_taurus_shoota",
+    "shoot_3p": "daffas_arsenal:taurus/daffas_taurus_shoota",
+    "silence": "daffas_arsenal:supressor/daffas_sniper",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

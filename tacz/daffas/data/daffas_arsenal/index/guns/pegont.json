@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.pegont",
+  "display": "daffas_arsenal:pegont_display",
+  "data": "daffas_arsenal:pegont_data",
+  "type": "smg",
+  "tooltip": "daffas_arsenal.gun.pegont.desc",
+  "sort": 200
+}

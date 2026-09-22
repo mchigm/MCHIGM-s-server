@@ -1,0 +1,7 @@
+{
+  "name": "daffas_arsenal.attachment.scope_m2ampon.name",
+  "display": "daffas_arsenal:scope_m2ampon_display",
+  "data": "daffas_arsenal:scope_m2ampon_data",
+  "type": "scope",
+  "sort": 100
+}

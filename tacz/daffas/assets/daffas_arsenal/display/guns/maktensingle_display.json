@@ -1,0 +1,60 @@
+{
+  "model": "daffas_arsenal:gun/makten_single_geo",
+  "texture": "daffas_arsenal:gun/uv/makten_single",
+  "lod": {
+    "model": "daffas_arsenal:gun/makten_single_geo",
+    "texture": "daffas_arsenal:gun/uv/makten_single"
+  },
+  "hud": "daffas_arsenal:gun/hud/makten_single",
+  "slot": "daffas_arsenal:gun/slot/makten_single",
+  "animation": "daffas_arsenal:makten_single",
+  "use_default_animation": "rifle",
+  "default_animation": "daffas_arsenal:daffas_default",
+  "state_machine": "daffas_arsenal:makten_single_state_machine",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.59, 0.59, 0.59],
+      "ground": [0.59, 0.59, 0.59],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "daffas_arsenal:flash/daffas_muzzle_flash_fire_old",
+    "scale": 1.25
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 60,
+  "shell": {
+    "initial_velocity": [10, 4, 2],
+    "random_velocity": [2, 2, 0.5],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [720, -2400, 180],
+    "living_time": 0.25
+  },
+  "sounds": {
+    "shoot": "daffas_arsenal:makten/makten_single_shoot",
+    "shoot_3p": "daffas_arsenal:makten/makten_single_shoot",
+    "silence": "daffas_arsenal:supressor/daffas_smg",
+    "silence_3p": "daffas_arsenal:supressor/daffas_smg",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

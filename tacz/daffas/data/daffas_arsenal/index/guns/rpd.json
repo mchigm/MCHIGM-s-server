@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.rpd",
+  "display": "daffas_arsenal:rpd_display",
+  "data": "daffas_arsenal:rpd_data",
+  "type": "mg",
+  "tooltip": "daffas_arsenal.gun.rpd.desc",
+  "sort": 200
+}

@@ -1,0 +1,6 @@
+{
+  "name": "gucci_attachments.attachment.grip_phase",
+  "display": "gucci_attachments:grip_phase_display",
+  "data": "gucci_attachments:grip_phase_data",
+  "type": "grip"
+}

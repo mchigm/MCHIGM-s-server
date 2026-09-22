@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.samula3",
+  "display": "daffas_arsenal:samula3_display",
+  "data": "daffas_arsenal:samula3_data",
+  "type": "rifle",
+  "tooltip": "daffas_arsenal.gun.samula3.desc",
+  "sort": 200
+}

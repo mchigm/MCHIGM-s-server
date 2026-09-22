@@ -1,0 +1,55 @@
+#Do bombs destroy blocks?
+bomb_griefing = false
+#Do bomb arrows destroy blocks?
+bomb_arrow_griefing = false
+#Do bomb flowers destroy blocks?
+bomb_flower_griefing = true
+#Do gusts of wind destroy plant blocks and extinguish fires
+wind_griefing = true
+#Do sword beams destroy blocks by default
+sword_beam_griefing = true
+#Do Fire Arrows melt frozen blocks?
+fire_arrow_melting = true
+#Do Ice Arrows freeze water?
+ice_arrow_freezing = true
+#Do Shock Arrows summon lightning when it's raining?
+shock_arrow_lightning = true
+#Can the Hookshot grapple onto any block type?
+hookshot_grabbing = false
+#Can the Clawshot grapple onto any block type?
+clawshot_grabbing = false
+#The total range of the hookshot. Default is 15.
+#Range: 0 ~ 60
+hookshot_range = 15
+#The total range of the clawshot. Default is 25.
+#Range: 0 ~ 60
+clawshot_range = 25
+#Can the player shoot sword beams by Left Clicking when available?
+sword_beams = true
+#Reverts Sword Beams to being fired with shift + Right Click
+alternative_sword_beams = false
+#Can the Reforged Master Sword fire Sword Beams?
+reforged_sword_beams = true
+#Can the Reforged Master Sword Beams summon lightning?
+reforged_sword_lightning = true
+#Does the Song of Storms affect the weather?
+song_of_storms = true
+#Does the Sun's Song affect the time of day?
+suns_song = true
+#Can Deku Scrubs and their variants spawn?
+deku_spawning = true
+#Can Keese and their variants spawn?
+keese_spawning = true
+#Can Chuchus and their variants spawn?
+chuchu_spawning = true
+#Can Skulltula spawn?
+skulltula_spawning = true
+#Can Koroks and their variants spawn?
+korok_spawning = true
+#The total amount of hearts the player may obtain with Heart Containers. By default this is one additional row. (40)
+#Range: 0 ~ 80
+heart_container_maximum = 40
+#The total amount of hearts the player may obtain with Primo Heart Containers. By default this is two additional rows. (60)
+#Range: 0 ~ 200
+primo_container_maximum = 60
+

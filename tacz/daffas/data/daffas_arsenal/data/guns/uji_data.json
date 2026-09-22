@@ -1,0 +1,84 @@
+{
+  "ammo": "daffas_arsenal:acp45",
+  "ammo_amount": 60,
+  "bolt": "open_bolt",
+  "rpm": 1200,
+  "bullet": {
+    "life": 0.4,
+    "bullet_amount": 1,
+    "damage": 7,
+    "extra_damage": {
+      "armor_ignore": 0.15,
+      "head_shot_multiplier": 1.25,
+      "damage_adjust": [
+        {"distance": 10, "damage": 7},
+        {"distance": 20, "damage": 6.6},
+        {"distance": 30, "damage": 6.2},
+        {"distance": 40, "damage": 5.8},
+        {"distance": 50, "damage": 5.4},
+        {"distance": 60, "damage": 5.0},
+        {"distance": 70, "damage": 4.3},
+        {"distance": "infinite", "damage": 3.2}
+      ]
+    },
+    "speed": 150,
+    "gravity": 0.30,
+    "knockback": 0.02,
+    "friction": 0.02,
+    "ignite": false,
+    "pierce": 1
+  },
+  "weight": 7.01,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.4,
+    "reload": -0.12
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 3.4,
+      "tactical": 3.4
+    },
+    "cooldown": {
+      "empty": 4.9,
+      "tactical": 3.9
+    }
+  },
+  "draw_time": 0.7,
+  "put_away_time": 0.55,
+  "aim_time": 0.15,
+  "sprint_time": 0.2,
+  "fire_mode": [
+    "burst"
+  ],
+  "burst_data": {
+    "continuous_shoot": true,
+    "count": 2,
+    "bpm": 2000,
+    "min_interval": 0.085
+  },
+  "recoil": {
+    "pitch": [
+      {"time": 0.05, "value": [1.5, 2.5]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.5, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0.05, "value": [-3.5, 3.5]},
+      {"time": 0.4, "value": [0.1, 0.1]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+
+  "inaccuracy": {
+    "stand": 7,
+    "move": 5,
+    "sneak": 4,
+    "lie": 3,
+    "aim": 3
+  },
+  "allow_attachment_types": [
+
+  ]
+}

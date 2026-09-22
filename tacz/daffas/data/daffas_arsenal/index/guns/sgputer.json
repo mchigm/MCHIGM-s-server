@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.sgputer",
+  "display": "daffas_arsenal:sgputer_display",
+  "data": "daffas_arsenal:sgputer_data",
+  "type": "shotgun",
+  "tooltip": "daffas_arsenal.gun.sgputer.desc",
+  "sort": 200
+}

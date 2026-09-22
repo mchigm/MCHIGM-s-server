@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.taurus2",
+  "display": "daffas_arsenal:taurus2_display",
+  "data": "daffas_arsenal:taurus2_data",
+  "tooltip": "daffas_arsenal.gun.taurus2.desc",
+  "type": "pistol",
+  "sort": 200
+}

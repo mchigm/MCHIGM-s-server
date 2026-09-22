@@ -1,0 +1,27 @@
+{
+  "slot": "daffas_arsenal:attachment/slot/scope_g362",
+  "model": "daffas_arsenal:attachment/scope_g362_geo",
+  "texture": "daffas_arsenal:gun/uv/g36",
+  "lod": {
+    "model": "daffas_arsenal:attachment/scope_g362_geo",
+    "texture": "daffas_arsenal:gun/uv/g36"
+  },
+  "zoom": [
+    2,
+    1.5
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    50.0,
+    70.0
+  ],
+  "scope": true,
+  "sight": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.ssg69s",
+  "display": "daffas_arsenal:ssg69s_display",
+  "data": "daffas_arsenal:ssg69s_data",
+  "tooltip": "daffas_arsenal.gun.ssg69s.desc",
+  "type": "sniper",
+  "sort": 200
+}

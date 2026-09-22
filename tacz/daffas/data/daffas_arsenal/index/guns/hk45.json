@@ -1,0 +1,8 @@
+{
+  "name": "daffas_arsenal.gun.hk45",
+  "display": "daffas_arsenal:hk45_display",
+  "data": "daffas_arsenal:hk45_data",
+  "tooltip": "daffas_arsenal.gun.hk45.desc",
+  "type": "pistol",
+  "sort": 200
+}
