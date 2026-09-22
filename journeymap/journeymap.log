@@ -1,13 +1,11 @@
-[17:07:07] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[17:07:07] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[17:07:07] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
-[17:07:07] [Render thread/WARN] [JourneymapClient] Create is installed without Create Repair: Create's train-map overlay on the fullscreen map is disabled. Install the Create Repair mod to restore it.
-[17:07:07] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:07:07] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[17:07:07] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-6.0.5, built with forge 0.92.3+1.20.1
+[18:18:42] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[18:18:42] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[18:18:42] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
+[18:18:42] [Render thread/WARN] [JourneymapClient] Create is installed without Create Repair: Create's train-map overlay on the fullscreen map is disabled. Install the Create Repair mod to restore it.
+[18:18:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:18:43] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-6.0.5, built with forge 0.92.3+1.20.1
 forge: 47.4.20
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
-SP: : New World : 
 MP: : offline : 
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -23,162 +21,10 @@ MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.5, zoomLevel=512, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, pauseGame=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.5, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, playerMaxDistance=0, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showLabelBackground=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, autoHideLabelVertical=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, autoHideLabelVerticalAngle=10, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, playerMinDistance=10, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.5, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.5, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=Purist, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
-[17:07:07] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 772.46ms
-[17:07:50] [Render thread/INFO] [JourneymapClientForge] Journeymap PostInit
-[17:07:53] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[17:07:53] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 3007.97ms
-[17:07:53] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: Current: 6.0.5 New: 6.0.6 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8923662
-[17:08:51] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
-[17:08:53] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[17:09:18] [Server thread/INFO] [PluginHelper] Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[17:09:19] [Server thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[17:09:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
-[17:09:47] [Server thread/INFO] [HandshakePacket] JourneyMap client version for MCHIGM: 6.0.5 (server version: 6.0.5)
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointTeleportOnly: false
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
-[17:10:16] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
-[17:10:17] [Render thread/INFO] [HandshakePacket] JourneyMap server version: 6.0.5 (client version: 6.0.5)
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointTeleportOnly: false
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
-[17:10:18] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
-[17:10:18] [Render thread/INFO] [HandshakePacket] JourneyMap server version: 6.0.5 (client version: 6.0.5)
-[17:10:22] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[17:10:22] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[17:10:22] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:10:22] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:10:22] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:10:24] [Render thread/INFO] [ChatLog] JourneyMap: Create's built-in train map is not compatible with JourneyMap 6 and was disabled. Install the Create Repair mod to restore it.
-[17:10:24] [Render thread/INFO] [ChatLog] JourneyMap: Press [NOT BOUND]
-[17:10:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:10:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[17:10:24] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
-[17:10:24] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[17:10:24] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\colorpalette.json
-[17:10:24] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\data\sp\New World\colorpalette.json
-[17:10:24] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\data\sp\New World\overworld. Memory: 12448MB total, 7040MB free 
-[17:10:24] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\data\sp\New World\overworld\chunk_cache
-[17:10:24] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=true)
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointTeleportOnly: false
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
-[17:10:59] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
-[17:11:13] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:11:33] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:11:33] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:11:33] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:11:33] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:11:46] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:11:46] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:11:46] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:11:46] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:12:03] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:12:03] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:12:03] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:12:03] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:12:21] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/rhinoceros.png
-[17:12:25] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:12:25] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/rhinoceros.png
-[17:12:25] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:12:25] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:12:48] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:13:00] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:13:00] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:13:00] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:13:00] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:13:24] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:13:24] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:13:24] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:13:24] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:13:45] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:13:45] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:13:45] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:13:45] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:13:59] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:13:59] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:13:59] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:13:59] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:14:02] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/rhinoceros.png
-[17:14:06] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_red_eared.png
-[17:14:38] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/gazelle.png
-[17:14:56] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:14:56] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seagull.png
-[17:14:56] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/gazelle.png
-[17:14:56] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/catfish_small.png
-[17:14:56] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/fly.png
-[17:15:31] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/seal/seal_brown_1.png
-[17:15:42] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/kangaroo.png
-[17:15:49] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/emu.png
-[17:15:50] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/gazelle.png
-[17:15:50] [Render thread/WARN] [JMLogger] Image is null: alexsmobs:textures/entity_icon/emu.png
-[17:15:59] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
-[17:15:59] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
-[17:16:01] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
-[17:16:01] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
-[17:16:01] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[17:16:01] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[17:16:01] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
-[17:16:01] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\data\mp\offline\minecraft:overworld
-[17:16:01] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Projects\ModrinthAPP\profiles\MCHIGM-s_Server\journeymap\data\mp\offline\minecraft:overworld
-[17:16:01] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
-[17:16:24] [Render thread/INFO] [WorldSelectionList$WorldListEntry] Deleting map data for world: New World
-[17:16:45] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.5, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=6.0.5, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=Purist, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[18:18:43] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 801.77ms
+[18:18:58] [Render thread/INFO] [JourneymapClientForge] Journeymap PostInit
+[18:19:01] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[18:19:01] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 2686.41ms
+[18:19:01] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: Current: 6.0.5 New: 6.0.6 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8923662
+[18:20:50] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
