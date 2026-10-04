@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:brass",
+  "name": "horn",
+  "loop": false,
+  "portable": true,
+  "key_start": "c2",
+  "key_end": "g5",
+  "family": "brass",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "c2", "key_end": "g5"}
+  ]
+}

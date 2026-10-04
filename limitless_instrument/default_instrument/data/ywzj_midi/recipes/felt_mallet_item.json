@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" W ", "WL ", " K "],
+  "key": {
+    "W": {"item": "minecraft:white_wool"},
+    "L": {"item": "minecraft:leather"},
+    "K": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_tool_item",
+    "count": 1,
+    "nbt": "{instrument_tool_id:\"felt_mallet_item\",display:{Name:'{\"translate\":\"item.ywzj_midi.felt_mallet_item\"}'}}"
+  }
+}

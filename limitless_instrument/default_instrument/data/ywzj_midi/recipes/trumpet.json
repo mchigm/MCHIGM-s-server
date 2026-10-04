@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" CC", "CIG", " C "],
+  "key": {
+    "C": {"item": "minecraft:copper_ingot"},
+    "I": {"item": "minecraft:iron_nugget"},
+    "G": {"item": "minecraft:gold_nugget"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:trumpet\"}"
+  }
+}

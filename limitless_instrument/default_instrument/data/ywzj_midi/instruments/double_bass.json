@@ -1,0 +1,17 @@
+{
+  "type": "ywzj_midi:string",
+  "name": "double_bass",
+  "loop": true,
+  "portable": true,
+  "key_start": "c1",
+  "key_end": "cs4",
+  "family": "string",
+  "item_type": "item",
+  "tool": "double_bass_bow",
+  "tool_hand": "main_hand",
+  "play_hand": "off_hand",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "c1", "key_end": "cs4"},
+    {"name": "pizz", "loop": false, "key_start": "c1", "key_end": "cs4"}
+  ]
+}

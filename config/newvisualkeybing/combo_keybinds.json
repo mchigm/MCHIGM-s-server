@@ -16,6 +16,14 @@
       "firstKey": "key.keyboard.left.alt",
       "secondKey": "key.keyboard.n",
       "updatedAt": "2026-09-21T16:57:51.646702900"
+    },
+    {
+      "mappingName": "keybinds.show_wounds",
+      "action": "Show wounds",
+      "category": "First Aid",
+      "firstKey": "key.keyboard.left.alt",
+      "secondKey": "key.keyboard.h",
+      "updatedAt": "2026-10-04T20:39:55.988812900"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:percussion",
+  "name": "cymbal",
+  "loop": false,
+  "portable": true,
+  "key_start": "c1",
+  "key_end": "c1",
+  "family": "percussion",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "c1", "key_end": "c1"}
+  ]
+}

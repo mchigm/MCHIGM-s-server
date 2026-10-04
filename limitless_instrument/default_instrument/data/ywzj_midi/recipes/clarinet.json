@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "BIC", " B "],
+  "key": {
+    "B": {"item": "minecraft:bamboo"},
+    "I": {"item": "minecraft:iron_nugget"},
+    "C": {"item": "minecraft:coal"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:clarinet\"}"
+  }
+}

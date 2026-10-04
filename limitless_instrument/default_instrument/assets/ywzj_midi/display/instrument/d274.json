@@ -1,0 +1,13 @@
+{
+  "model": "ywzj_midi:instrument/d274",
+  "texture": "ywzj_midi:textures/instrument/d274.png",
+  "slot_texture": "ywzj_midi:textures/slot/d274.png",
+  "animations": "ywzj_midi:entity/d274.animation",
+  "script": "piano",
+  "switchable_animations": {
+    "cap": {
+      "animation": "cap"
+    }
+  },
+  "tab_index": 2
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "WIS", " W "],
+  "key": {
+    "S": {"item": "minecraft:string"},
+    "W": {"item": "minecraft:dark_oak_planks"},
+    "I": {"item": "minecraft:iron_nugget"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:viola\"}"
+  }
+}

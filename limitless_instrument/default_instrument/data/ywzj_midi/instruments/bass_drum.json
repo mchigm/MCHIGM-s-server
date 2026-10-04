@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:percussion",
+  "name": "bass_drum",
+  "loop": false,
+  "portable": false,
+  "key_start": "f1",
+  "key_end": "c2",
+  "family": "percussion",
+  "item_type": "block",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "f1", "key_end": "c2"}
+  ]
+}

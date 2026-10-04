@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:brass",
+  "name": "trumpet",
+  "loop": false,
+  "portable": true,
+  "key_start": "c3",
+  "key_end": "e6",
+  "family": "brass",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "c3", "key_end": "e6"}
+  ]
+}

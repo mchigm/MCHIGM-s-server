@@ -1,0 +1,17 @@
+{
+  "type": "ywzj_midi:string",
+  "name": "viola",
+  "loop": true,
+  "portable": true,
+  "key_start": "c3",
+  "key_end": "f6",
+  "family": "string",
+  "item_type": "item",
+  "tool": "viola_bow",
+  "tool_hand": "main_hand",
+  "play_hand": "off_hand",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "c3", "key_end": "f6"},
+    {"name": "pizz", "loop": false, "key_start": "c3", "key_end": "f6"}
+  ]
+}

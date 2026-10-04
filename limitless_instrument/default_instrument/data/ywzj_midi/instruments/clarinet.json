@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:woodwind",
+  "name": "clarinet",
+  "loop": true,
+  "portable": true,
+  "key_start": "d3",
+  "key_end": "ds6",
+  "family": "woodwind",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "d3", "key_end": "ds6"}
+  ]
+}

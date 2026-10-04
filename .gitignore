@@ -11,3 +11,5 @@
 /local
 /logs
 win_event*.txt
+
+*.jar.disabled

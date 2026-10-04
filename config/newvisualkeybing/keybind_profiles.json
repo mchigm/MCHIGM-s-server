@@ -4,8 +4,26 @@
   "profiles": [
     {
       "name": "COMMON - Person",
-      "updatedAt": "2026-09-21T17:13:42.628712600",
+      "updatedAt": "2026-10-04T20:43:11.331952600",
       "bindings": [
+        {
+          "name": "key.cofh.mode_change_decrement",
+          "action": "Cycle Mode Down",
+          "category": "CoFH",
+          "categoryName": "CoFH",
+          "key": "key.keyboard.b",
+          "defaultKey": "key.keyboard.b",
+          "priority": 0
+        },
+        {
+          "name": "key.cofh.mode_change_increment",
+          "action": "Cycle Mode Up",
+          "category": "CoFH",
+          "categoryName": "CoFH",
+          "key": "key.keyboard.v",
+          "defaultKey": "key.keyboard.v",
+          "priority": 0
+        },
         {
           "name": "create.keyinfo.toolbelt",
           "action": "Access Nearby Toolboxes",
@@ -34,6 +52,15 @@
           "priority": 0
         },
         {
+          "name": "keybinds.show_wounds",
+          "action": "Show wounds",
+          "category": "First Aid",
+          "categoryName": "First Aid",
+          "key": "key.keyboard.h",
+          "defaultKey": "key.keyboard.h",
+          "priority": 0
+        },
+        {
           "name": "Import Packs (Developers Only)",
           "action": "Import Packs (Developers Only)",
           "category": "Immersive Vehicles (MTS)",
@@ -49,6 +76,33 @@
           "categoryName": "Immersive Vehicles (MTS)",
           "key": "key.keyboard.keypad.5",
           "defaultKey": "key.keyboard.p",
+          "priority": 0
+        },
+        {
+          "name": "tfc.key.cycle_chisel_mode",
+          "action": "Cycle Chisel Mode",
+          "category": "TerraFirmaCraft",
+          "categoryName": "TerraFirmaCraft",
+          "key": "key.keyboard.m",
+          "defaultKey": "key.keyboard.m",
+          "priority": 0
+        },
+        {
+          "name": "tfc.key.place_block",
+          "action": "Place Block",
+          "category": "TerraFirmaCraft",
+          "categoryName": "TerraFirmaCraft",
+          "key": "key.keyboard.v",
+          "defaultKey": "key.keyboard.v",
+          "priority": 0
+        },
+        {
+          "name": "tfc.key.stack_food",
+          "action": "Stack Food",
+          "category": "TerraFirmaCraft",
+          "categoryName": "TerraFirmaCraft",
+          "key": "key.keyboard.i",
+          "defaultKey": "key.keyboard.i",
           "priority": 0
         },
         {
@@ -133,6 +187,15 @@
           "priority": 0
         },
         {
+          "name": "key.double_hotbar.swap",
+          "action": "Swap Hotbars",
+          "category": "category.double_hotbar.keybinds",
+          "categoryName": "Double Hotbar",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.r",
+          "priority": 0
+        },
+        {
           "name": "key.exposure.camera_controls",
           "action": "Open Camera Controls",
           "category": "category.exposure",
@@ -175,6 +238,132 @@
           "categoryName": "Freecam",
           "key": "key.keyboard.f4",
           "defaultKey": "key.keyboard.f4",
+          "priority": 0
+        },
+        {
+          "name": "key.valkyrienskies.ship_cruise",
+          "action": "Cruise",
+          "category": "category.valkyrienskies.driving",
+          "categoryName": "Driving",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.c",
+          "priority": 0
+        },
+        {
+          "name": "key.valkyrienskies.ship_down",
+          "action": "Descend",
+          "category": "category.valkyrienskies.driving",
+          "categoryName": "Driving",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.v",
+          "priority": 0
+        },
+        {
+          "name": "chunkloaders.keys.open_screen",
+          "action": "View Chunk Loaders",
+          "category": "chunkloaders.keys.category",
+          "categoryName": "Chunk Loaders",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.c",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.key_boost",
+          "action": "Boost",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.left.control",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.chest_mode",
+          "action": "Chest Mode Switch",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.g",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.feet_mode",
+          "action": "Feet Mode Switch",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.b",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.head_mode",
+          "action": "Head Mode Switch",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.v",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.mode",
+          "action": "Item Mode Switch",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.n",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.legs_mode",
+          "action": "Legs Mode Switch",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.j",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.module_tweaker",
+          "action": "Module Tweaker",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.backslash",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.description",
+          "action": "Show Description",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.n",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.details",
+          "action": "Show Details",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.left.shift",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanism.key_hud",
+          "action": "Show HUD",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.h",
+          "priority": 0
+        },
+        {
+          "name": "key.mekanismadditions.voice",
+          "action": "Voice",
+          "category": "constants.mekanism.mod_name",
+          "categoryName": "Mekanism",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.u",
           "priority": 0
         },
         {
@@ -304,12 +493,12 @@
           "priority": 0
         },
         {
-          "name": "key.jei.cheatOneItem2",
-          "action": "Cheat 1 Item",
-          "category": "jei.key.category.cheat.mode",
-          "categoryName": "JEI (Cheat Mode)",
+          "name": "key.mca.skin_library",
+          "action": "Open Skin Library",
+          "category": "itemGroup.mca.mca_tab",
+          "categoryName": "Minecraft Comes Alive",
           "key": "key.keyboard.unknown",
-          "defaultKey": "key.mouse.right",
+          "defaultKey": "key.keyboard.u",
           "priority": 0
         },
         {
@@ -319,6 +508,15 @@
           "categoryName": "JEI (Cheat Mode)",
           "key": "key.keyboard.unknown",
           "defaultKey": "key.mouse.left",
+          "priority": 0
+        },
+        {
+          "name": "key.jei.cheatOneItem2",
+          "action": "Cheat 1 Item",
+          "category": "jei.key.category.cheat.mode",
+          "categoryName": "JEI (Cheat Mode)",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.mouse.right",
           "priority": 0
         },
         {
@@ -817,6 +1015,33 @@
           "priority": 0
         },
         {
+          "name": "key.ae2.portable_fluid_cell",
+          "action": "Open Portable Fluid Cell",
+          "category": "key.ae2.category",
+          "categoryName": "Applied Energistics 2",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
+        },
+        {
+          "name": "key.ae2.portable_item_cell",
+          "action": "Open Portable Item Cell",
+          "category": "key.ae2.category",
+          "categoryName": "Applied Energistics 2",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
+        },
+        {
+          "name": "key.ae2.wireless_terminal",
+          "action": "Open Wireless Terminal",
+          "category": "key.ae2.category",
+          "categoryName": "Applied Energistics 2",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
+        },
+        {
           "name": "key.aether.gravitite_jump_ability.desc",
           "action": "Activate Gravitite Jump",
           "category": "key.aether.category",
@@ -841,6 +1066,42 @@
           "categoryName": "Aether",
           "key": "key.keyboard.unknown",
           "defaultKey": "key.keyboard.v",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.down_pull",
+          "action": "Down Pull",
+          "category": "key.categories.aiming",
+          "categoryName": "Aiming",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.down",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.left_pull",
+          "action": "Left Pull",
+          "category": "key.categories.aiming",
+          "categoryName": "Aiming",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.left",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.right_pull",
+          "action": "Right Pull",
+          "category": "key.categories.aiming",
+          "categoryName": "Aiming",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.right",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.up_pull",
+          "action": "Up Pull",
+          "category": "key.categories.aiming",
+          "categoryName": "Aiming",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.up",
           "priority": 0
         },
         {
@@ -877,6 +1138,33 @@
           "categoryName": "Frontline Combat Pack",
           "key": "key.keyboard.unknown",
           "defaultKey": "key.keyboard.f6",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.reload",
+          "action": "Reload",
+          "category": "key.categories.firearms",
+          "categoryName": "Firearms",
+          "key": "key.keyboard.r",
+          "defaultKey": "key.keyboard.r",
+          "priority": 1
+        },
+        {
+          "name": "key.crusty_chunks.ads",
+          "action": "ADS Toggle",
+          "category": "key.categories.firearms",
+          "categoryName": "Firearms",
+          "key": "key.keyboard.left.control",
+          "defaultKey": "key.keyboard.left.control",
+          "priority": 0
+        },
+        {
+          "name": "key.crusty_chunks.fire_select",
+          "action": "Fire Select",
+          "category": "key.categories.firearms",
+          "categoryName": "Firearms",
+          "key": "key.keyboard.g",
+          "defaultKey": "key.keyboard.g",
           "priority": 0
         },
         {
@@ -922,6 +1210,15 @@
           "categoryName": "Gameplay",
           "key": "key.mouse.middle",
           "defaultKey": "key.mouse.middle",
+          "priority": 0
+        },
+        {
+          "name": "key.omegarecon.toggle_nvg",
+          "action": "Recon Omega: Toggle NVGs",
+          "category": "key.categories.gameplay",
+          "categoryName": "Gameplay",
+          "key": "key.keyboard.v",
+          "defaultKey": "key.keyboard.v",
           "priority": 0
         },
         {
@@ -1168,6 +1465,150 @@
           "priority": 0
         },
         {
+          "name": "key.little.config.item",
+          "action": "Configure Tool",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.c",
+          "priority": 0
+        },
+        {
+          "name": "key.little.mark",
+          "action": "Mark Preview",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.m",
+          "priority": 0
+        },
+        {
+          "name": "key.little.mirror",
+          "action": "Mirror Preview",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.g",
+          "priority": 0
+        },
+        {
+          "name": "key.little.redo",
+          "action": "Redo",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.y",
+          "priority": 0
+        },
+        {
+          "name": "key.rotatedown",
+          "action": "Rotate down",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.down",
+          "priority": 0
+        },
+        {
+          "name": "key.rotateleft",
+          "action": "Rotate left",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.left",
+          "priority": 0
+        },
+        {
+          "name": "key.rotateright",
+          "action": "Rotate right",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.right",
+          "priority": 0
+        },
+        {
+          "name": "key.rotateup",
+          "action": "Rotate up",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.up",
+          "priority": 0
+        },
+        {
+          "name": "key.little.undo",
+          "action": "Undo",
+          "category": "key.categories.littletiles",
+          "categoryName": "LittleTiles Settings",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.z",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.filecaster",
+          "action": "key.mimi.midi.gui.filecaster",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.period",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.settings",
+          "action": "key.mimi.midi.gui.settings",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.home",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.main",
+          "action": "Open Instrument GUI for instrument in Main Hand",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.j",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.off",
+          "action": "Open Instrument GUI for instrument in Off Hand",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.k",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.seat",
+          "action": "Open Instrument GUI for instrument seated at",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.l",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.gui.transmitter",
+          "action": "Open Transmitter GUI when in Hand or Hotbar",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.comma",
+          "priority": 0
+        },
+        {
+          "name": "key.mimi.midi.alloff",
+          "action": "Stop all currently playing MIDI notes",
+          "category": "key.categories.mimi",
+          "categoryName": "MIMI - Musical Instrument Minecraft Interface",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.end",
+          "priority": 0
+        },
+        {
           "name": "key.advancements",
           "action": "Advancements",
           "category": "key.categories.misc",
@@ -1258,12 +1699,93 @@
           "priority": 1
         },
         {
+          "name": "key.tacmove.lean_left",
+          "action": "Lean Left",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.q",
+          "defaultKey": "key.keyboard.q",
+          "priority": 1
+        },
+        {
+          "name": "key.tacmove.lean_right",
+          "action": "Lean Right",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.e",
+          "defaultKey": "key.keyboard.e",
+          "priority": 1
+        },
+        {
           "name": "key.tacmove.low_ready",
           "action": "Low Ready",
           "category": "key.categories.movement",
           "categoryName": "Movement",
           "key": "key.keyboard.x",
           "defaultKey": "key.keyboard.x",
+          "priority": 1
+        },
+        {
+          "name": "key.sneak",
+          "action": "Sneak",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.left.shift",
+          "defaultKey": "key.keyboard.left.shift",
+          "priority": 1
+        },
+        {
+          "name": "key.sprint",
+          "action": "Sprint",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.left.control",
+          "defaultKey": "key.keyboard.left.control",
+          "priority": 1
+        },
+        {
+          "name": "key.left",
+          "action": "Strafe Left",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.a",
+          "defaultKey": "key.keyboard.a",
+          "priority": 1
+        },
+        {
+          "name": "key.right",
+          "action": "Strafe Right",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.d",
+          "defaultKey": "key.keyboard.d",
+          "priority": 1
+        },
+        {
+          "name": "key.crawlondemand.toggle_crawl",
+          "action": "Toggle Crawl",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.z",
+          "defaultKey": "key.keyboard.left.alt",
+          "priority": 1
+        },
+        {
+          "name": "key.back",
+          "action": "Walk Backwards",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.s",
+          "defaultKey": "key.keyboard.s",
+          "priority": 1
+        },
+        {
+          "name": "key.forward",
+          "action": "Walk Forwards",
+          "category": "key.categories.movement",
+          "categoryName": "Movement",
+          "key": "key.keyboard.w",
+          "defaultKey": "key.keyboard.w",
           "priority": 1
         },
         {
@@ -1280,7 +1802,7 @@
           "action": "Dolphin Dive (Phantom Forces)",
           "category": "key.categories.movement",
           "categoryName": "Movement",
-          "key": "key.keyboard.x",
+          "key": "key.keyboard.unknown",
           "defaultKey": "key.keyboard.x",
           "priority": 0
         },
@@ -1291,24 +1813,6 @@
           "categoryName": "Movement",
           "key": "key.keyboard.space",
           "defaultKey": "key.keyboard.space",
-          "priority": 0
-        },
-        {
-          "name": "key.tacmove.lean_left",
-          "action": "Lean Left",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.q",
-          "defaultKey": "key.keyboard.q",
-          "priority": 0
-        },
-        {
-          "name": "key.tacmove.lean_right",
-          "action": "Lean Right",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.e",
-          "defaultKey": "key.keyboard.e",
           "priority": 0
         },
         {
@@ -1330,42 +1834,6 @@
           "priority": 0
         },
         {
-          "name": "key.sneak",
-          "action": "Sneak",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.left.shift",
-          "defaultKey": "key.keyboard.left.shift",
-          "priority": 0
-        },
-        {
-          "name": "key.sprint",
-          "action": "Sprint",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.left.control",
-          "defaultKey": "key.keyboard.left.control",
-          "priority": 0
-        },
-        {
-          "name": "key.left",
-          "action": "Strafe Left",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.a",
-          "defaultKey": "key.keyboard.a",
-          "priority": 0
-        },
-        {
-          "name": "key.right",
-          "action": "Strafe Right",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.d",
-          "defaultKey": "key.keyboard.d",
-          "priority": 0
-        },
-        {
           "name": "key.tacmove.tac_sprint",
           "action": "Tac Sprint",
           "category": "key.categories.movement",
@@ -1375,31 +1843,13 @@
           "priority": 0
         },
         {
-          "name": "key.crawlondemand.toggle_crawl",
-          "action": "Toggle Crawl",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.z",
-          "defaultKey": "key.keyboard.left.alt",
-          "priority": 0
-        },
-        {
-          "name": "key.back",
-          "action": "Walk Backwards",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.s",
-          "defaultKey": "key.keyboard.s",
-          "priority": 0
-        },
-        {
-          "name": "key.forward",
-          "action": "Walk Forwards",
-          "category": "key.categories.movement",
-          "categoryName": "Movement",
-          "key": "key.keyboard.w",
-          "defaultKey": "key.keyboard.w",
-          "priority": 0
+          "name": "key.chat",
+          "action": "Open Chat",
+          "category": "key.categories.multiplayer",
+          "categoryName": "Multiplayer",
+          "key": "key.keyboard.t",
+          "defaultKey": "key.keyboard.t",
+          "priority": 1
         },
         {
           "name": "key.playerlist",
@@ -1408,15 +1858,6 @@
           "categoryName": "Multiplayer",
           "key": "key.keyboard.tab",
           "defaultKey": "key.keyboard.tab",
-          "priority": 0
-        },
-        {
-          "name": "key.chat",
-          "action": "Open Chat",
-          "category": "key.categories.multiplayer",
-          "categoryName": "Multiplayer",
-          "key": "key.keyboard.t",
-          "defaultKey": "key.keyboard.t",
           "priority": 0
         },
         {
@@ -1454,6 +1895,51 @@
           "key": "key.keyboard.w",
           "defaultKey": "key.keyboard.w",
           "priority": -1
+        },
+        {
+          "name": "key.cycleLeft",
+          "action": "Cycle Hotbar Slot Left",
+          "category": "key.categories.puzzlesapi",
+          "categoryName": "Puzzles Api",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.g",
+          "priority": 0
+        },
+        {
+          "name": "key.cycleRight",
+          "action": "Cycle Hotbar Slot Right",
+          "category": "key.categories.puzzlesapi",
+          "categoryName": "Puzzles Api",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.h",
+          "priority": 0
+        },
+        {
+          "name": "key.toggleCarriedItemTooltips",
+          "action": "Toggle Carried Item Tooltips",
+          "category": "key.categories.puzzlesapi",
+          "categoryName": "Puzzles Api",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
+        },
+        {
+          "name": "key.toggleSelectedItemTooltips",
+          "action": "Toggle Selected Item Tooltips",
+          "category": "key.categories.puzzlesapi",
+          "categoryName": "Puzzles Api",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
+        },
+        {
+          "name": "key.toggleVisualItemContents",
+          "action": "Toggle Visual Item Contents",
+          "category": "key.categories.puzzlesapi",
+          "categoryName": "Puzzles Api",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.unknown",
+          "priority": 0
         },
         {
           "name": "key.sbw_ew_addon.hack_drone",
@@ -1600,6 +2086,15 @@
           "priority": 0
         },
         {
+          "name": "key.superbwarfare.reload",
+          "action": "Reload",
+          "category": "key.categories.superbwarfare",
+          "categoryName": "Superb Warfare",
+          "key": "key.keyboard.r",
+          "defaultKey": "key.keyboard.r",
+          "priority": 1
+        },
+        {
           "name": "key.superbwarfare.move_ctrl",
           "action": "Accelerate",
           "category": "key.categories.superbwarfare",
@@ -1703,7 +2198,7 @@
           "action": "Edit Weapon",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.h",
+          "key": "key.keyboard.comma",
           "defaultKey": "key.keyboard.h",
           "priority": 0
         },
@@ -1730,7 +2225,7 @@
           "action": "Forward / Throttle Up",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.w",
           "defaultKey": "key.keyboard.w",
           "priority": 0
         },
@@ -1798,20 +2293,11 @@
           "priority": 0
         },
         {
-          "name": "key.superbwarfare.reload",
-          "action": "Reload",
-          "category": "key.categories.superbwarfare",
-          "categoryName": "Superb Warfare",
-          "key": "key.keyboard.r",
-          "defaultKey": "key.keyboard.r",
-          "priority": 0
-        },
-        {
           "name": "key.superbwarfare.move_left",
           "action": "Turn Left / Roll Left",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.a",
           "defaultKey": "key.keyboard.a",
           "priority": 0
         },
@@ -1820,7 +2306,7 @@
           "action": "Turn Right / Roll Right",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.d",
           "defaultKey": "key.keyboard.d",
           "priority": 0
         },
@@ -1838,7 +2324,7 @@
           "action": "Vehicle Free-Cam",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.c",
           "defaultKey": "key.keyboard.c",
           "priority": 0
         },
@@ -1856,7 +2342,7 @@
           "action": "Zoom (Hold)",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.keyboard.unknown",
+          "key": "key.mouse.right",
           "defaultKey": "key.mouse.right",
           "priority": 0
         },
@@ -1865,9 +2351,27 @@
           "action": "Zoom (Switch)",
           "category": "key.categories.superbwarfare",
           "categoryName": "Superb Warfare",
-          "key": "key.mouse.right",
+          "key": "key.keyboard.unknown",
           "defaultKey": "key.keyboard.unknown",
           "priority": -1
+        },
+        {
+          "name": "key.swgc.forceActions",
+          "action": "Force Actions",
+          "category": "key.categories.swgc",
+          "categoryName": "Star Wars: Galaxy in a Cube",
+          "key": "key.keyboard.left.alt",
+          "defaultKey": "key.keyboard.left.alt",
+          "priority": 0
+        },
+        {
+          "name": "key.swgc.weaponInteraction",
+          "action": "Weapon Interaction",
+          "category": "key.categories.swgc",
+          "categoryName": "Star Wars: Galaxy in a Cube",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.r",
+          "priority": 0
         },
         {
           "name": "key.tacz_sewv.board_my_vehicle",
@@ -1910,7 +2414,7 @@
           "action": "Clear Weapon Malfunction",
           "category": "key.categories.tacz_tactical_breaching",
           "categoryName": "TaCZ Tactical Breaching",
-          "key": "key.keyboard.unknown",
+          "key": "key.mouse.left",
           "defaultKey": "key.keyboard.j",
           "priority": 0
         },
@@ -1921,6 +2425,33 @@
           "categoryName": "TaCZ Tactical Breaching",
           "key": "key.keyboard.unknown",
           "defaultKey": "key.keyboard.k",
+          "priority": 0
+        },
+        {
+          "name": "key.taczaddon.switch_gun.desc",
+          "action": "Quickly Switch Gun",
+          "category": "key.categories.taczaddon",
+          "categoryName": "TaCZ addon",
+          "key": "key.keyboard.tab",
+          "defaultKey": "key.keyboard.tab",
+          "priority": 0
+        },
+        {
+          "name": "key.tconstruct.helmet_interact",
+          "action": "Helmet Interaction",
+          "category": "key.categories.tconstruct",
+          "categoryName": "Tinkers\u0027 Construct",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.z",
+          "priority": 0
+        },
+        {
+          "name": "key.tconstruct.leggings_interact",
+          "action": "Leggings Interaction",
+          "category": "key.categories.tconstruct",
+          "categoryName": "Tinkers\u0027 Construct",
+          "key": "key.keyboard.unknown",
+          "defaultKey": "key.keyboard.i",
           "priority": 0
         },
         {
@@ -2158,6 +2689,15 @@
           "priority": 0
         },
         {
+          "name": "key.tacz.reload.desc",
+          "action": "Reload",
+          "category": "key.category.tacz",
+          "categoryName": "Timeless \u0026 Classics Guns: Zero",
+          "key": "key.keyboard.r",
+          "defaultKey": "key.keyboard.r",
+          "priority": 1
+        },
+        {
           "name": "key.tacz.aim.desc",
           "action": "Aim",
           "category": "key.category.tacz",
@@ -2189,7 +2729,7 @@
           "action": "Inspect",
           "category": "key.category.tacz",
           "categoryName": "Timeless \u0026 Classics Guns: Zero",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.h",
           "defaultKey": "key.keyboard.h",
           "priority": 0
         },
@@ -2225,17 +2765,8 @@
           "action": "Refit",
           "category": "key.category.tacz",
           "categoryName": "Timeless \u0026 Classics Guns: Zero",
-          "key": "key.keyboard.h",
+          "key": "key.keyboard.comma",
           "defaultKey": "key.keyboard.z",
-          "priority": 0
-        },
-        {
-          "name": "key.tacz.reload.desc",
-          "action": "Reload",
-          "category": "key.category.tacz",
-          "categoryName": "Timeless \u0026 Classics Guns: Zero",
-          "key": "key.keyboard.r",
-          "defaultKey": "key.keyboard.r",
           "priority": 0
         },
         {
@@ -2266,6 +2797,15 @@
           "priority": 0
         },
         {
+          "name": "key.guideme.guide",
+          "action": "Open Guide for Items",
+          "category": "key.guideme.category",
+          "categoryName": "GuideME",
+          "key": "key.keyboard.g",
+          "defaultKey": "key.keyboard.g",
+          "priority": 0
+        },
+        {
           "name": "key.modernfix.config",
           "action": "Open config screen",
           "category": "key.modernfix",
@@ -2288,7 +2828,7 @@
           "action": "Open Backpack",
           "category": "key.travelersbackpack.category",
           "categoryName": "Traveler\u0027s Backpack",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.b",
           "defaultKey": "key.keyboard.b",
           "priority": 0
         },
@@ -2306,7 +2846,7 @@
           "action": "Swap Tool/Change Hose Mode",
           "category": "key.travelersbackpack.category",
           "categoryName": "Traveler\u0027s Backpack",
-          "key": "key.keyboard.unknown",
+          "key": "key.keyboard.x",
           "defaultKey": "key.keyboard.z",
           "priority": 0
         },
@@ -2768,6 +3308,14 @@
           "firstKey": "key.keyboard.left.alt",
           "secondKey": "key.keyboard.n",
           "updatedAt": "2026-09-21T16:57:51.646702900"
+        },
+        {
+          "mappingName": "keybinds.show_wounds",
+          "action": "Show wounds",
+          "category": "First Aid",
+          "firstKey": "key.keyboard.left.alt",
+          "secondKey": "key.keyboard.h",
+          "updatedAt": "2026-10-04T20:39:55.988812900"
         }
       ]
     },
@@ -5459,15 +6007,15 @@
     "key.togglePerspective": 0,
     "key.crawlondemand.crawl": 0,
     "key.jump": 0,
-    "key.sneak": 0,
-    "key.sprint": 0,
-    "key.left": 0,
-    "key.right": 0,
-    "key.crawlondemand.toggle_crawl": 0,
-    "key.back": 0,
-    "key.forward": 0,
+    "key.sneak": 1,
+    "key.sprint": 1,
+    "key.left": 1,
+    "key.right": 1,
+    "key.crawlondemand.toggle_crawl": 1,
+    "key.back": 1,
+    "key.forward": 1,
     "key.playerlist": 0,
-    "key.chat": 0,
+    "key.chat": 1,
     "key.command": 0,
     "key.socialInteractions": 0,
     "key.newvisualkeybing.open_viewer": 0,
@@ -5508,7 +6056,7 @@
     "key.superbwarfare.config": 0,
     "key.superbwarfare.sensitivity_reduce": 0,
     "key.superbwarfare.release_decoy": 0,
-    "key.superbwarfare.reload": 0,
+    "key.superbwarfare.reload": 1,
     "key.superbwarfare.move_left": 0,
     "key.superbwarfare.move_right": 0,
     "key.superbwarfare.unload": 0,
@@ -5552,7 +6100,7 @@
     "key.tacz.melee.desc": 0,
     "key.tacz.open_config.desc": 0,
     "key.tacz.refit.desc": 0,
-    "key.tacz.reload.desc": 0,
+    "key.tacz.reload.desc": 1,
     "key.tacz.shoot.desc": 0,
     "key.tacz.zoom.desc": 0,
     "key.curios.open.desc": 0,
@@ -5611,7 +6159,10 @@
     "quark.keybind.autorun": -1,
     "key.entityculling.toggle": 0,
     "key.tacmove.high_ready": 1,
-    "key.tacmove.low_ready": 1
+    "key.tacmove.low_ready": 1,
+    "key.tacmove.lean_left": 1,
+    "key.tacmove.lean_right": 1,
+    "key.crusty_chunks.reload": 1
   },
   "conflictIgnored": [
     "key.forward",

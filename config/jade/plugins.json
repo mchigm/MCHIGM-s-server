@@ -94,6 +94,58 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "tfc": {
+    "bloomery": true,
+    "nest_box": true,
+    "bellows": true,
+    "hoe_overlay": true,
+    "charcoal_forge": true,
+    "mud_bricks": true,
+    "loom": true,
+    "bloom": true,
+    "frog": true,
+    "sapling": true,
+    "rabbit": true,
+    "composter": true,
+    "decaying": true,
+    "wall_torch": true,
+    "windmill": true,
+    "ocelot": true,
+    "candle_cake": true,
+    "horse": true,
+    "clutch": true,
+    "animal": true,
+    "fruit_tree_sapling": true,
+    "squid": true,
+    "encased_axle": true,
+    "crop": true,
+    "blast_furnace": true,
+    "hand_wheel": true,
+    "sheet_pile": true,
+    "quern": true,
+    "pit_kiln_above": true,
+    "hot_poured_glass": true,
+    "gearbox": true,
+    "axle": true,
+    "chested_horse": true,
+    "pack_predator": true,
+    "barrel": true,
+    "predator": true,
+    "wild_animal": true,
+    "crucible": true,
+    "torch": true,
+    "lamp": true,
+    "fishing_hook": true,
+    "water_wheel": true,
+    "crankshaft": true,
+    "powder_keg": true,
+    "pit_kiln_internal": true,
+    "fish": true,
+    "candle": true,
+    "jack_o_lantern": true,
+    "firepit": true,
+    "ingot_pile": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -111,6 +163,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "dynamictrees": {
     "rooty_water": true,
     "pod": true,
@@ -120,6 +175,14 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   },
   "securitycraft": {
     "showowner": true,

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" A ", "AIG", " A "],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "I": {"item": "minecraft:iron_ingot"},
+    "G": {"item": "minecraft:copper_ingot"}
+  },
+  "result": {
+    "item": "ywzj_midi:aa775",
+    "count": 1
+  }
+}

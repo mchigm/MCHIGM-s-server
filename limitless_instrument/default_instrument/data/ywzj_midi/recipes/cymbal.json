@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" G ", "GIG", " G "],
+  "key": {
+    "G": {"item": "minecraft:copper_ingot"},
+    "I": {"item": "minecraft:iron_nugget"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:cymbal\"}"
+  }
+}

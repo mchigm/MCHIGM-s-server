@@ -1,0 +1,17 @@
+{
+  "type": "ywzj_midi:string",
+  "name": "violin",
+  "loop": true,
+  "portable": true,
+  "key_start": "g3",
+  "key_end": "e7",
+  "family": "string",
+  "item_type": "item",
+  "tool": "violin_bow",
+  "tool_hand": "main_hand",
+  "play_hand": "off_hand",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "g3", "key_end": "e7"},
+    {"name": "pizz", "loop": false, "key_start": "g3", "key_end": "e7"}
+  ]
+}

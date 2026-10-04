@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  S", "SW ", " K "],
+  "key": {
+    "S": {"item": "minecraft:string"},
+    "W": {"item": "minecraft:dark_oak_planks"},
+    "K": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_tool_item",
+    "count": 1,
+    "nbt": "{instrument_tool_id:\"double_bass_bow\",display:{Name:'{\"translate\":\"item.ywzj_midi.double_bass_bow\"}'}}"
+  }
+}

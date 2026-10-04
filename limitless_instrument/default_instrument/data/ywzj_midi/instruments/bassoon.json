@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:woodwind",
+  "name": "bassoon",
+  "loop": true,
+  "portable": true,
+  "key_start": "a2",
+  "key_end": "b5",
+  "family": "woodwind",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "a2", "key_end": "b5"}
+  ]
+}

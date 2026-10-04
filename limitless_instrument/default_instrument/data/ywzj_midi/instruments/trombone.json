@@ -1,0 +1,14 @@
+{
+  "type": "ywzj_midi:brass",
+  "name": "trombone",
+  "loop": false,
+  "portable": true,
+  "key_start": "c1",
+  "key_end": "e5",
+  "family": "brass",
+  "item_type": "item",
+  "play_hand": "off_hand",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "c1", "key_end": "e5"}
+  ]
+}

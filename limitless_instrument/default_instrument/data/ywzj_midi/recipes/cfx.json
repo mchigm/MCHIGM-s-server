@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WWW", "GGG", "WWW"],
+  "key": {
+    "W": {"item": "minecraft:spruce_log"},
+    "G": {"item": "minecraft:gold_block"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_entity_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:cfx\"}"
+  }
+}

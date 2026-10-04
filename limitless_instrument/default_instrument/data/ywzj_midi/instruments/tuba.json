@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:brass",
+  "name": "tuba",
+  "loop": false,
+  "portable": true,
+  "key_start": "gs0",
+  "key_end": "e4",
+  "family": "brass",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": false, "key_start": "gs0", "key_end": "e4"}
+  ]
+}

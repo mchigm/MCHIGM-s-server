@@ -1,0 +1,13 @@
+{
+  "type": "ywzj_midi:woodwind",
+  "name": "flute",
+  "loop": true,
+  "portable": true,
+  "key_start": "c4",
+  "key_end": "c7",
+  "family": "woodwind",
+  "item_type": "item",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "c4", "key_end": "c7"}
+  ]
+}

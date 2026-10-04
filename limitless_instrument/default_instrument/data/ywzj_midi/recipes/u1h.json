@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WWW", "IGI", "WWW"],
+  "key": {
+    "W": {"tag": "minecraft:planks"},
+    "I": {"item": "minecraft:iron_block"},
+    "G": {"item": "minecraft:gold_block"}
+  },
+  "result": {
+    "item": "ywzj_midi:u1h",
+    "count": 1
+  }
+}

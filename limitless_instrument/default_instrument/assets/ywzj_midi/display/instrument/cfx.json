@@ -1,0 +1,13 @@
+{
+  "model": "ywzj_midi:instrument/cfx",
+  "texture": "ywzj_midi:textures/instrument/cfx.png",
+  "slot_texture": "ywzj_midi:textures/slot/cfx.png",
+  "animations": "ywzj_midi:entity/cfx.animation",
+  "script": "piano",
+  "switchable_animations": {
+    "cap": {
+      "animation": "cap"
+    }
+  },
+  "tab_index": 1
+}

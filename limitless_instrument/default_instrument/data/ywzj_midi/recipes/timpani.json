@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" I ", "ILI", "III"],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "L": {"item": "minecraft:leather"}
+  },
+  "result": {
+    "item": "ywzj_midi:timpani",
+    "count": 1
+  }
+}

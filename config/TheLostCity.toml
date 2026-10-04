@@ -1,0 +1,40 @@
+#Uses custom Structure type. (custom structure type has more spawn checks and allows bigger cities (size and maxDistance), but may have some generation issues when using /locate or /place)
+UseCustomStructureType = true
+#--------------------------------------------City Settings--------------------------------------------
+#Should cars spawn?
+SpawnCars = true
+#Disables the generation of monster spawners in the city structure.
+DisableSpawners = false
+#It is the jigsaw depth limit and it has a maximum of 30.
+#Range: 1 ~ 30
+CitySize = 15
+#Defines the maximum distance of any piece from the structure start.
+#Range: 1 ~ 1000
+CityDistanceFromCenter = 128
+#--------------------------------------------City Spawn Settings--------------------------------------------
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+CitySpacing = 34
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+CitySeparation = 8
+#defines step of structure spawn ('step' in default structure.json)
+CityStep = "surface_structures"
+#defines terrain adaptation of structure spawn ('terrain_adaptation' in default structure.json)
+CityTerrainAdaptation = "beard_thin"
+#defines start height adaptation of structure spawn ('start_height' in default structure.json)
+CityStartHeight = "\"absolute\": 10\n"
+#defines project start to heightmap of structure spawn ('project_start_to_heightmap' in default structure.json)
+CityProjectStartToHeightmap = "OCEAN_FLOOR"
+#Defines the list of biomes where cities can spawn.
+CityBiomes = ["plains", "snowy_plains", "sunflower_plains", "snowy_plains", "desert"]
+#--------------------------------------------Villages City Spawn Settings--------------------------------------------
+#Defines the list of biomes where cities can spawn.
+VillagesCityBiomes = ["taiga", "plains", "snowy_plains", "sunflower_plains", "snowy_taiga"]
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+VillagesCitySeparation = 16
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+VillagesCitySpacing = 34
+

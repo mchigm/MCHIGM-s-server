@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PPP", "PLP", "PPP"],
+  "key": {
+    "P": {"tag": "minecraft:planks"},
+    "L": {"item": "minecraft:leather"}
+  },
+  "result": {
+    "item": "ywzj_midi:bass_drum",
+    "count": 1
+  }
+}

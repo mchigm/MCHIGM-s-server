@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "scale": 1.0,
+  "backgroundAlpha": 1.0,
+  "counterItemId": "minecraft:diamond",
+  "seasonDays": 28,
+  "gameDayStartOffset": 1,
+  "seasonStartOffset": 1,
+  "showClock": true,
+  "showTimeDisplay": true,
+  "showWeather": true,
+  "showFortune": true,
+  "showItemCounter": true,
+  "showSeason": true,
+  "enableLogging": false,
+  "counterNbtTag": "",
+  "counterMode": 0,
+  "showCounterItemIcon": true,
+  "hideVanillaEffects": false
+}

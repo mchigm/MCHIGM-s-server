@@ -1,0 +1,37 @@
+
+[Car]
+	"Modern Car Speed Multiplier" = 0.7
+	"Modern Car Acceleration" = 2.0
+	"Modern Car Turn Rate" = 4.0
+	"Modern Car Max Health" = 120
+
+[Pickup]
+	"Pickup Truck Speed Multiplier" = 0.6
+	"Pickup Truck Acceleration" = 1.8
+	"Pickup Truck Turn Rate" = 3.7
+	"Pickup Truck Max Health" = 160
+
+[SUV]
+	"SUV Speed Multiplier" = 0.65
+	"SUV Acceleration" = 1.6
+	"SUV Turn Rate" = 3.6
+	"SUV Max Health" = 160
+
+[Classic]
+	"Classic Car Speed Multiplier" = 0.7
+	"Classic Car Acceleration" = 1.8
+	"Classic Car Turn Rate" = 4.0
+	"Classic Car Max Health" = 100
+
+[Sportcar]
+	"Sportcar Speed Multiplier" = 0.8
+	"Sportcar Acceleration" = 2.4
+	"Sportcar Turn Rate" = 4.0
+	"Sportcar Max Health" = 80
+
+[Motorcycle]
+	"Motorcycle Speed Multiplier" = 0.8
+	"Motorcycle Acceleration" = 2.6
+	"Motorcycle Turn Rate" = 4.0
+	"Motorcycle Max Health" = 60
+

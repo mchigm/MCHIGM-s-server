@@ -1,0 +1,15 @@
+{
+    "type": "ywzj_vehicle:wheeled_vehicle",
+    "model": "ywzj_vehicle:entity/cssa5",
+    "texture": "ywzj_vehicle:textures/entity/cssa5.png",
+    "cabin_model": "ywzj_vehicle:cabin/cssa5",
+    "cabin_texture": "ywzj_vehicle:textures/cabin/cssa5.png",
+    "slot_texture": "ywzj_vehicle:textures/slot/cssa5.png",
+    "animation_controller": "ywzj_vehicle:cssa5_controller",
+    "sounds": {
+        "engine_start": "ywzj_vehicle:lav150_engine_start",
+        "engine_idle": "ywzj_vehicle:truck_engine_idle",
+        "engine_run": "ywzj_vehicle:truck_engine_run"
+    },
+    "tab_index": 201
+}

@@ -1,0 +1,39 @@
+#近战是否能伤害载具
+allowMeleeDamageVehicle = false
+#载具是否能破坏方块
+canDestroyBlock = true
+#爆炸是否掉落方块
+explosionDropBlock = true
+#载具爆炸对乘客造成的伤害值
+#Range: 0.0 ~ 1.7976931348623157E308
+vehicleExplosionHurtPassengerDamage = 512.0
+#镜头晃动强度倍率
+#Range: 0.0 ~ 10.0
+cameraShakeMultiplier = 1.0
+#倾角过大时是否自动回正
+selfRighting = true
+#无需燃油仍可运作
+infiniteFuel = false
+#允许视作燃油的液体
+fuelNameWhiteList = ["fuel", "gas", "lava"]
+#开启命中提示
+hitIndicator = true
+#载具乘客是否需为同队
+checkTeamOnEnterVehicle = true
+#手办盒是否只能收纳载具
+figureBoxOnlyCaptureVehicle = false
+#是否启用过载机制
+overload = true
+#过载耐受倍率
+#Range: 0.1 ~ 100.0
+overloadCapacityMultiplier = 1.0
+#特技飞行烟雾颜色 - 红
+#Range: 0 ~ 255
+aerobaticSmokeR = 255
+#特技飞行烟雾颜色 - 绿
+#Range: 0 ~ 255
+aerobaticSmokeG = 0
+#特技飞行烟雾颜色 - 蓝
+#Range: 0 ~ 255
+aerobaticSmokeB = 0
+

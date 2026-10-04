@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" BB", "BIS", " BB"],
+  "key": {
+    "B": {"item": "minecraft:bamboo"},
+    "I": {"item": "minecraft:copper_ingot"},
+    "S": {"item": "minecraft:string"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_item",
+    "count": 1,
+    "nbt": "{instrument_id:\"ywzj_midi:bassoon\"}"
+  }
+}

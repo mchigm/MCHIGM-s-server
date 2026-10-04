@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  S", "SW ", " K "],
+  "key": {
+    "S": {"item": "minecraft:string"},
+    "W": {"item": "minecraft:birch_planks"},
+    "K": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "ywzj_midi:instrument_tool_item",
+    "count": 1,
+    "nbt": "{instrument_tool_id:\"cello_bow\",display:{Name:'{\"translate\":\"item.ywzj_midi.cello_bow\"}'}}"
+  }
+}

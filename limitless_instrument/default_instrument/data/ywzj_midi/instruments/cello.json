@@ -1,0 +1,17 @@
+{
+  "type": "ywzj_midi:string",
+  "name": "cello",
+  "loop": true,
+  "portable": true,
+  "key_start": "c2",
+  "key_end": "g5",
+  "family": "string",
+  "item_type": "item",
+  "tool": "cello_bow",
+  "tool_hand": "main_hand",
+  "play_hand": "off_hand",
+  "variants": [
+    {"name": "raw", "loop": true, "key_start": "c2", "key_end": "g5"},
+    {"name": "pizz", "loop": false, "key_start": "c2", "key_end": "cs5"}
+  ]
+}

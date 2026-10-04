@@ -1,0 +1,114 @@
+# Shows settings GUI after exiting realms screen. It isn't reset to default value by GUI reset button!
+# Default value: false
+debug_config_screen = false
+
+# Enables additional messages and checks useful for debugging.
+# Default value: false
+debug_mode = false
+
+# Specifies default relevancy of unknown item data components.
+# This applies mainly to modded components.
+# If you see unknown item components in vanilla (with only NBTac installed), report this as an issue.
+# relevant_by_default - unknown item components are marked as relevant by default.
+# relevant_within_namespace - unknown item components are marked as relevant only if their ID is in the same namespace as item ID.
+# irrelevant_by_default - unknown item components are marked as irrelevant by default.
+# Default value: RELEVANT_BY_DEFAULT
+unknown_item_components = RELEVANT_BY_DEFAULT
+
+# Allows the mod to use non-alphabetical suggestion sorting.
+# Default value: true
+custom_sorting = true
+
+# Specifies the placing of irrelevant suggestions.
+# Possible values: normal, at_the_bottom, hidden
+# Values other than "normal" require custom sorting to be enabled.
+# Default value: AT_THE_BOTTOM
+placing_of_irrelevant = AT_THE_BOTTOM
+
+# Marks irrelevant suggestions with "<I>" in a hint.
+# Default value: true
+mark_irrelevant = true
+
+# Defines what kind of quotation mark will be used by default.
+# single - [']
+# double - ["]
+# If you're on 1.21.4 or older note that it doesn't apply to JSON text components.
+# Default value: DOUBLE
+default_quotation_mark = DOUBLE
+
+# Defines simple string opening suggestion for JSON text components.
+# none - None
+# recommended - Same as "default_for_strings" on 1.20.4 and newer, same as "legacy_separated" on older.
+# default_for_strings - uses quote type from "Default Quotation Mark Type" setting.
+# legacy_separated - [' "]
+# legacy_merged - ['"] - similar to legacy_separated, but without space.
+# legacy_backslash - ["\"].
+# Default value: RECOMMENDED
+json_string_suggestion = RECOMMENDED
+
+# Updates suggestions on cursor movement.
+# This applies to all command suggestions, not only these provided by NBT Autocomplete.
+# This setting restores behavior from before Minecraft 26.1, and setting it to false doesn't change anything on older versions.
+# Default value: true
+update_on_cursor_movement = true
+
+# Hides "minecraft:" namespace from item component suggestions.
+# Default value: true
+hide_mc_namespace_in_components = true
+
+# Hides "minecraft:" namespace from tag suggestions.
+# Default value: true
+hide_mc_namespace_in_tags = true
+
+# Marks recommended suggestions with "<*>" in a hint.
+# Default value: true
+mark_recommended = true
+
+# Shows tag hints (like its type or source) next to its name in a suggestion list.
+# Default value: true
+show_tag_hints = true
+
+# When enabled it will always show "minecraft:custom_model_data" item component as relevant suggestion. When disabled it will always be shown as irrelevant.
+# Default value: false
+show_custom_model_data_as_relevant = false
+
+# Suggests 1b/0b instead of true/false for boolean value. Note that it doesn't apply to raw JSON format, as it requires true/false form.
+# Default value: false
+short_boolean = false
+
+# Hides "minecraft:" namespace from string suggestions.
+# Default value: false
+hide_mc_namespace_in_strings = false
+
+# Ignores letter case when providing tag name suggestions.
+# Default value: true
+ignore_letter_case = true
+
+# Places recommended suggestions at the top of the list. Requires custom sorting.
+# Default value: true
+recommended_at_the_top = true
+
+# Puts tag names in quotation marks.
+# true - Always
+# false - When necessary
+# Default value: false
+tag_quotation_marks = false
+
+# Puts values of string type in quotation marks.
+# true - Always
+# false - When necessary
+# Default value: false
+string_quotation_marks = false
+
+# Delays suggestion loading to better measure time it takes (value in milliseconds, recommended to set to a few thousand).
+# Default value: 0
+debug_sleep = 0
+
+# Grays out irrelevant suggestions.
+# Default value: true
+gray_out_irrelevant = true
+
+# When enabled it will always show "minecraft:custom_data" item component as relevant suggestion. When disabled it will always be shown as irrelevant.
+# Default value: false
+show_custom_data_as_relevant = false
+

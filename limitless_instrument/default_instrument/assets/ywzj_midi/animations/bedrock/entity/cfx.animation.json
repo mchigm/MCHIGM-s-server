@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"cap": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"cap2": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, 70]
+					}
+				},
+				"cap": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, -22.5]
+					}
+				},
+				"cap4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-170, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

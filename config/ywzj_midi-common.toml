@@ -1,0 +1,6 @@
+#The maximum number of players one can share local music with.
+max_sync_music_to = 3
+#Multiplier for the audible distance of instrument and music sounds.
+#Range: 0.1 ~ 100.0
+sound_distance_multiplier = 3.0
+
